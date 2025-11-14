@@ -30,6 +30,22 @@ _EVAL_ARGS = [ModelArguments, DataArguments, EvaluationArguments, FinetuningArgu
 _EVAL_CLS = Tuple[ModelArguments, DataArguments, EvaluationArguments, FinetuningArguments]
 
 
+def _merge_nested_generating_args(arg_dict: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """
+    HuggingFace 的 HfArgumentParser 只识别扁平化的参数。
+    在我们的 YAML 中，生成参数可能放在 generating_args 子字典里，
+    这里将其合并到顶层，同时保持顶层同名参数的优先级。
+    """
+    if not isinstance(arg_dict, dict):
+        return arg_dict
+    merged_args = dict(arg_dict)
+    nested_generating = merged_args.pop("generating_args", None)
+    if isinstance(nested_generating, dict):
+        for key, value in nested_generating.items():
+            merged_args.setdefault(key, value)
+    return merged_args
+
+
 def _parse_args(parser: "HfArgumentParser", args: Optional[Dict[str, Any]] = None) -> Tuple[Any]:
     if args is not None:
         return parser.parse_dict(args, True)
@@ -118,6 +134,7 @@ def _parse_train_args(args: Optional[Dict[str, Any]] = None) -> _TRAIN_CLS:
 
 
 def _parse_infer_args(args: Optional[Dict[str, Any]] = None) -> _INFER_CLS:
+    args = _merge_nested_generating_args(args)
     parser = HfArgumentParser(_INFER_ARGS)
     return _parse_args(parser, args)
 

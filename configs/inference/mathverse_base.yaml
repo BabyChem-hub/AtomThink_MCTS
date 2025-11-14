@@ -1,0 +1,29 @@
+# --- 主策略模型 (Policy Model) ---
+model_name_or_path: /data1/xiangkun/MODELS/Llama-3.2-Vision-11B
+output_dir: evaluation_results/MathVerse_base
+remote_work_dir: evaluation_results/MathVerse_base/remote_temp
+answers_file: evaluation_results/MathVerse_base/inference/MathVerse/manual_run
+device_map: "auto"
+trust_remote_code: true
+print_param_status: false
+infer_dtype: "float16" 
+
+### Test data
+dataset_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/data/test_data 
+dataset_name: MathVerse
+image_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/data/test_data/MathVerse/images
+dataset: MathVerse/testmini.json
+template: llava
+cutoff_len: 4096
+prompt: base 
+answers_file: /cache/exps/AtomThink/train_full/llama32-11b-vision/llava100k_amath/inference/
+quick_match: false
+
+### inference
+method: base 
+temperature: 0.0
+top_p: 0.7
+top_k: 50
+max_new_tokens: 4096
+repetition_penalty: 1.0
+image_resolution: 313600

@@ -1,11 +1,15 @@
 import time
+import os
+import json
+from typing import Optional
 from tqdm import tqdm
 from ...extras.logging import get_logger
 from ..utils.inference_utils import inference_one_step, update_inputs_from_rollout, txt_verifier
 from ..utils.eval_utils import save_json
 from ..utils.conversation import conversation_map
 from .base import BaseInference
-from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel, AutoConfig, AutoModelForVision2Seq
+from peft import PeftModel
 import torch
 import torch.nn.functional as F  # NOTE add for qwen prm
 import copy
@@ -162,8 +166,27 @@ class AtomThinkSlow(BaseInference):
         step_tag = '\n\n\n\n\n'
         prm_model_pretrained = model_args.prm_model
         print(prm_model_pretrained)
+        adapter_config_path = os.path.join(prm_model_pretrained, "adapter_config.json")
+        processor_path = os.path.join(prm_model_pretrained, "processor")
+        base_model_path = prm_model_pretrained
+        tokenizer_path = prm_model_pretrained
+        use_lora_adapter = False
+        trust_remote_code = getattr(model_args, "trust_remote_code", True)
+
+        if os.path.exists(adapter_config_path):
+            with open(adapter_config_path, "r") as f:
+                adapter_config = json.load(f)
+            base_model_path = adapter_config.get("base_model_name_or_path")
+            if base_model_path is None:
+                raise ValueError(f"'base_model_name_or_path' is missing in {adapter_config_path}")
+            tokenizer_path = base_model_path
+            use_lora_adapter = True
+
+        if not os.path.exists(tokenizer_path) and os.path.isdir(processor_path):
+            tokenizer_path = processor_path
+
         tokenizer = AutoTokenizer.from_pretrained(
-            prm_model_pretrained,
+            tokenizer_path,
             add_eos_token=False, )
         tokenizer.pad_token_id = 0
         tokenizer.padding_side = "left"
@@ -178,12 +201,31 @@ class AtomThinkSlow(BaseInference):
                 trust_remote_code=True,
             ).eval()
         else:
-            candidate_tokens = tokenizer.encode(f" {good_token} {bad_token}")  # [488, 481]
-            step_tag_id = tokenizer.encode(f" {step_tag}")[-1]  # 76325
-            model = AutoModelForCausalLM.from_pretrained(
-                prm_model_pretrained,
+            candidate_tokens = tokenizer.encode(f" {good_token} {bad_token}", add_special_tokens=False)  # [488, 481]
+            step_tag_tokens = tokenizer.encode(f" {step_tag}", add_special_tokens=False)
+            step_tag_id = step_tag_tokens[-1] if step_tag_tokens else None  # 76325
+            if len(candidate_tokens) < 2:
+                candidate_tokens = (candidate_tokens + [None, None])[:2]
+            elif len(candidate_tokens) > 2:
+                candidate_tokens = candidate_tokens[:2]
+            model_load_path = base_model_path if use_lora_adapter else prm_model_pretrained
+            config = AutoConfig.from_pretrained(model_load_path, trust_remote_code=trust_remote_code)
+            multimodal_types = {"llava", "llava_next", "llava_onevision", "video_llava"}
+            if getattr(config, "model_type", None) in multimodal_types:
+                model_class = AutoModelForVision2Seq
+            else:
+                model_class = AutoModelForCausalLM
+            model = model_class.from_pretrained(
+                model_load_path,
                 device_map=model_args.prm_device_map,
-                torch_dtype=torch.float16)
+                torch_dtype=torch.float16,
+                trust_remote_code=trust_remote_code,
+                config=config,
+            )
+            if use_lora_adapter:
+                model = PeftModel.from_pretrained(model, prm_model_pretrained).eval()
+            else:
+                model = model.eval()
         return model, tokenizer, candidate_tokens, step_tag_id
 
     def reward_qwen(self, init_prompt, rollout, caption=None, ):
@@ -225,4 +267,68 @@ class AtomThinkSlow(BaseInference):
             return min(res)
         return res[-1]
 
+    def reward(self, init_prompt, rollout, caption=None):
+        question = self._extract_question_text(init_prompt)
+        if caption:
+            question = f"{question}\n{caption}"
+        reasoning = self._format_rollout(rollout)
+        prompt = (
+            "You are a process reward model for mathematical reasoning. "
+            "Given the following question and reasoning steps, respond with '+' if the reasoning is correct "
+            "or '-' if it is flawed.\n\n"
+            f"Question:\n{question.strip()}\n\nReasoning:\n{reasoning.strip()}\n\nAnswer:"
+        )
 
+        base_device = self._resolve_prm_device(self.prm_model)
+        inputs = self.prm_tokenizer(prompt, return_tensors="pt")
+        input_ids = inputs["input_ids"].to(base_device)
+        attention_mask = inputs.get("attention_mask")
+        if attention_mask is not None:
+            attention_mask = attention_mask.to(base_device)
+
+        text_model = getattr(self.prm_model, "language_model", self.prm_model)
+        with torch.no_grad():
+            outputs = text_model(input_ids=input_ids, attention_mask=attention_mask)
+        logits = outputs.logits[:, -1, :].float()
+        probs = torch.softmax(logits, dim=-1)
+
+        plus_id, minus_id = (self.candidate_tokens or [None, None])
+        plus_prob = probs[0, plus_id].item() if plus_id is not None else 0.0
+        minus_prob = probs[0, minus_id].item() if minus_id is not None else 0.0
+        total = plus_prob + minus_prob
+        if total <= 0:
+            return plus_prob
+        return plus_prob / total
+
+    @staticmethod
+    def _extract_question_text(init_prompt: str) -> str:
+        if not init_prompt:
+            return ""
+        marker = "THE GIVEN QUESTION:\n"
+        if marker in init_prompt:
+            tail = init_prompt.split(marker, 1)[1]
+            if "HISTORICAL REASONING STEPS:" in tail:
+                tail = tail.split("HISTORICAL REASONING STEPS:", 1)[0]
+            return tail.strip()
+        return init_prompt.strip()
+
+    @staticmethod
+    def _format_rollout(rollout):
+        if not rollout:
+            return "No reasoning provided."
+        lines = []
+        for idx, step in enumerate(rollout, 1):
+            normalized = (step or "").strip()
+            lines.append(f"Step {idx}: {normalized}")
+        return "\n".join(lines)
+
+    @staticmethod
+    def _resolve_prm_device(model: Optional[torch.nn.Module]) -> torch.device:
+        if model is None:
+            return torch.device('cpu')
+        if hasattr(model, 'device'):
+            return model.device
+        try:
+            return next(model.parameters()).device
+        except StopIteration:
+            return torch.device('cpu')

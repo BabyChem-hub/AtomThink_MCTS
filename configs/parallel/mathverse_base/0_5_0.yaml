@@ -1,0 +1,34 @@
+answers_file: evaluation_results/MathVerse_base/inference/mathverse_base/0_5_0
+cutoff_len: 4096
+dataset: mathverse_base/0_5_0.json
+dataset_dir: data/test_data/parallel
+dataset_name: MathVerse
+device_map: auto
+generating_args:
+  atomthink_beam_search_num: 2
+  candidate_num: 3
+  max_new_tokens: 4096
+  max_sampling_count: 300
+  mcts_exploration_factor: 1.41
+  mcts_iterations: 50
+  method: base
+  repetition_penalty: 1.0
+  temperature: 0.0
+  top_k: 50
+  top_p: 0.7
+image_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/data/test_data/MathVerse/images
+image_resolution: 313600
+infer_dtype: float16
+max_samples: null
+method: base
+model_name_or_path: /data1/xiangkun/MODELS/Llama-3.2-Vision-11B
+output_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/yujunjie/AtomThink/output_dir
+print_param_status: false
+prm_device_map: auto
+prompt: base
+quick_match: false
+remote_answers_file: evaluation_results/MathVerse_base/remote_temp/inference/mathverse_base/0_5_0
+remote_work_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/yujunjie/AtomThink/work_dir
+separate_eval: true
+template: llava
+trust_remote_code: true

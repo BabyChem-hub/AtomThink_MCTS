@@ -1,0 +1,272 @@
+[
+    {
+        "sample_index": "568",
+        "problem_index": "114",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, in the sector OAB with a radius of 1.0, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2",
+        "image": "images_version_1-4/image_114.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, in the sector OAB with a radius of 1.0, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, in the sector OAB with a radius of 1.0, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2",
+        "question_for_eval": "As shown in the figure, in the sector OAB with a radius of 1.0, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2"
+    },
+    {
+        "sample_index": "76",
+        "problem_index": "16",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, in circle O, chord AC parallel radius OB, angle BOC = 50.0, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0",
+        "image": "images_version_1-4/image_16.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, in circle O, chord AC parallel radius OB, angle BOC = 50.0, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, in circle O, chord AC parallel radius OB, angle BOC = 50.0, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0",
+        "question_for_eval": "As shown in the figure, in circle O, chord AC parallel radius OB, angle BOC = 50.0, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0"
+    },
+    {
+        "sample_index": "2520",
+        "problem_index": "504",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_504.png",
+        "answer": "even",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Determine whether the graphed function is even, odd, or neither."
+    },
+    {
+        "sample_index": "928",
+        "problem_index": "186",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, if angle E = 30.0, CE = 6.0, then the value of OD is ()\nChoices:\nA:1\nB:\u221a{3}\nC:2\nD:2\u221a{3}",
+        "image": "images_version_1-4/image_186.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, if angle E = 30.0, CE = 6.0, then the value of OD is ()\nChoices:\nA:1\nB:\u221a{3}\nC:2\nD:2\u221a{3}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, if angle E = 30.0, CE = 6.0, then the value of OD is ()\nChoices:\nA:1\nB:\u221a{3}\nC:2\nD:2\u221a{3}",
+        "question_for_eval": "As shown in the figure, if angle E = 30.0, CE = 6.0, then the value of OD is ()\nChoices:\nA:1\nB:\u221a{3}\nC:2\nD:2\u221a{3}"
+    },
+    {
+        "sample_index": "1667",
+        "problem_index": "334",
+        "problem_version": "Text Lite",
+        "question": "Find the true bearing of A from O.",
+        "image": "images_version_1-4/image_334.png",
+        "answer": "118\u63b3T",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the true bearing of A from O.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the true bearing of A from O.",
+        "question_for_eval": "Find the true bearing of A from O."
+    },
+    {
+        "sample_index": "1050",
+        "problem_index": "210",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_210.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "B E and C D are parallel. Find A E \nChoices:\nA:12\nB:15\nC:16\nD:20"
+    },
+    {
+        "sample_index": "3732",
+        "problem_index": "747",
+        "problem_version": "Text Lite",
+        "question": "All edges of the following cube have the same length.\n\nFind the exact length of AG in simplest surd form.",
+        "image": "images_version_1-4/image_747.png",
+        "answer": "\\sqrt{147}",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: All edges of the following cube have the same length.\n\nFind the exact length of AG in simplest surd form.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: All edges of the following cube have the same length.\n\nFind the exact length of AG in simplest surd form.",
+        "question_for_eval": "All edges of the following cube have the same length.\n\nFind the exact length of AG in simplest surd form."
+    },
+    {
+        "sample_index": "441",
+        "problem_index": "89",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, A, B, C are three points on circle O, angle ACB = 25.0, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0",
+        "image": "images_version_1-4/image_89.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, A, B, C are three points on circle O, angle ACB = 25.0, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, A, B, C are three points on circle O, angle ACB = 25.0, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0",
+        "question_for_eval": "As shown in the figure, A, B, C are three points on circle O, angle ACB = 25.0, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0"
+    },
+    {
+        "sample_index": "640",
+        "problem_index": "128",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_128.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure, If OA and OB are overlapped to form a cone side, the diameter of the bottom of the cone is ()\nChoices:\nA:2cm\nB:4cm\nC:3cm\nD:5cm"
+    },
+    {
+        "sample_index": "3758",
+        "problem_index": "752",
+        "problem_version": "Vision Intensive",
+        "question": "The figure above shows a solid with height $\\sqrt{3} x$. If the volume of the solid is $\\frac{81}{4}$, what is the value of $x$ ?\nChoices:\nA:3\nB:4\nC:5\nD:6",
+        "image": "images_version_1-4/image_752.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: The figure above shows a solid with height $\\sqrt{3} x$. If the volume of the solid is $\\frac{81}{4}$, what is the value of $x$ ?\nChoices:\nA:3\nB:4\nC:5\nD:6",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: The figure above shows a solid with height $\\sqrt{3} x$. If the volume of the solid is $\\frac{81}{4}$, what is the value of $x$ ?\nChoices:\nA:3\nB:4\nC:5\nD:6",
+        "question_for_eval": "The figure above shows a solid with height $\\sqrt{3} x$. If the volume of the solid is $\\frac{81}{4}$, what is the value of $x$ ?\nChoices:\nA:3\nB:4\nC:5\nD:6"
+    },
+    {
+        "sample_index": "2281",
+        "problem_index": "457",
+        "problem_version": "Text Dominant",
+        "question": "Consider the circle on the graph. Its center is at (1,3) and its radius is 6.\n\nFind the equation of the circle in standard form.\n",
+        "image": "images_version_1-4/image_457.png",
+        "answer": "$(x-1)^{2}+(y-3)^{2}=36$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Consider the circle on the graph. Its center is at (1,3) and its radius is 6.\n\nFind the equation of the circle in standard form.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Consider the circle on the graph. Its center is at (1,3) and its radius is 6.\n\nFind the equation of the circle in standard form.\n",
+        "question_for_eval": "Consider the circle on the graph. Its center is at (1,3) and its radius is 6.\n\nFind the equation of the circle in standard form.\n"
+    },
+    {
+        "sample_index": "2257",
+        "problem_index": "452",
+        "problem_version": "Text Lite",
+        "question": "Find the equation of the figure in point-slope form .\n",
+        "image": "images_version_1-4/image_452.png",
+        "answer": "$y-3=\\frac{2}{3}(x-8)$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the equation of the figure in point-slope form .\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the equation of the figure in point-slope form .\n",
+        "question_for_eval": "Find the equation of the figure in point-slope form .\n"
+    },
+    {
+        "sample_index": "3241",
+        "problem_index": "649",
+        "problem_version": "Text Dominant",
+        "question": "Find the volume of the sphere shown. The diameter is 4 centimeters.\n\nRound your answer to two decimal places.",
+        "image": "images_version_1-4/image_649.png",
+        "answer": "Volume $=33.51 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the volume of the sphere shown. The diameter is 4 centimeters.\n\nRound your answer to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the volume of the sphere shown. The diameter is 4 centimeters.\n\nRound your answer to two decimal places.",
+        "question_for_eval": "Find the volume of the sphere shown. The diameter is 4 centimeters.\n\nRound your answer to two decimal places."
+    },
+    {
+        "sample_index": "238",
+        "problem_index": "48",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, if angle BOC = 100.0, then the degree of angle BAC is ()\nChoices:\nA:50\u00b0\nB:80\u00b0\nC:100\u00b0\nD:130\u00b0",
+        "image": "images_version_1-4/image_48.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, if angle BOC = 100.0, then the degree of angle BAC is ()\nChoices:\nA:50\u00b0\nB:80\u00b0\nC:100\u00b0\nD:130\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, if angle BOC = 100.0, then the degree of angle BAC is ()\nChoices:\nA:50\u00b0\nB:80\u00b0\nC:100\u00b0\nD:130\u00b0",
+        "question_for_eval": "As shown in the figure, if angle BOC = 100.0, then the degree of angle BAC is ()\nChoices:\nA:50\u00b0\nB:80\u00b0\nC:100\u00b0\nD:130\u00b0"
+    },
+    {
+        "sample_index": "420",
+        "problem_index": "84",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_84.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure, then the length of BC is ()\nChoices:\nA:2\nB:2\u221a{3}\nC:\u221a{3}\nD:2\u221a{2}"
+    }
+]

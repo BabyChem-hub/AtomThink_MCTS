@@ -18,6 +18,9 @@ from ...data import get_template_and_fix_tokenizer
 from datetime import datetime
 from PIL import Image
 from PIL.Image import Image as ImageObject
+
+logger = get_logger(__name__)
+
 if is_pillow_available():
     pass
 

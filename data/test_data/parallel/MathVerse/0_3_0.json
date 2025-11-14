@@ -1,0 +1,308 @@
+[
+    {
+        "sample_index": "2006",
+        "problem_index": "402",
+        "problem_version": "Text Dominant",
+        "question": "The diameter of the figure is $ 52.72 \\mathrm{~cm}$. The figure follows that half of a circle has area $\\frac{1}{2} \\pi r^{2}$. Find the exact area of the shape shown.",
+        "image": "images_version_1-4/image_402.png",
+        "answer": "Area $=347.4248 \\pi \\mathrm{cm}^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The diameter of the figure is $ 52.72 \\mathrm{~cm}$. The figure follows that half of a circle has area $\\frac{1}{2} \\pi r^{2}$. Find the exact area of the shape shown.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The diameter of the figure is $ 52.72 \\mathrm{~cm}$. The figure follows that half of a circle has area $\\frac{1}{2} \\pi r^{2}$. Find the exact area of the shape shown.",
+        "question_for_eval": "The diameter of the figure is $ 52.72 \\mathrm{~cm}$. The figure follows that half of a circle has area $\\frac{1}{2} \\pi r^{2}$. Find the exact area of the shape shown."
+    },
+    {
+        "sample_index": "3254",
+        "problem_index": "651",
+        "problem_version": "Vision Dominant",
+        "question": "Find the volume of the sphere shown, giving your answer correct to two decimal places.",
+        "image": "images_version_5/image_651.png",
+        "answer": "Volume $=2854.54 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the volume of the sphere shown, giving your answer correct to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the volume of the sphere shown, giving your answer correct to two decimal places.",
+        "question_for_eval": "Find the volume of the sphere shown, giving your answer correct to two decimal places."
+    },
+    {
+        "sample_index": "781",
+        "problem_index": "157",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, in triangle ABC, angle C = 90.0, if AC = 4.0, BC = 3.0, then cosB is equal to ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}",
+        "image": "images_version_1-4/image_157.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, in triangle ABC, angle C = 90.0, if AC = 4.0, BC = 3.0, then cosB is equal to ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, in triangle ABC, angle C = 90.0, if AC = 4.0, BC = 3.0, then cosB is equal to ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}",
+        "question_for_eval": "As shown in the figure, in triangle ABC, angle C = 90.0, if AC = 4.0, BC = 3.0, then cosB is equal to ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}"
+    },
+    {
+        "sample_index": "2241",
+        "problem_index": "449",
+        "problem_version": "Text Dominant",
+        "question": "A circle the center of the circle is the origin and the radius of the circle is 1. The point $P$ on the unit circle has the coordinates $(x, y)$. What is the value of $\\sec \\theta$ ?\nChoices:\nA:$\\frac{1}{x}$\nB:$x$\nC:$y$\nD:$\\frac{1}{y}$",
+        "image": "images_version_1-4/image_449.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: A circle the center of the circle is the origin and the radius of the circle is 1. The point $P$ on the unit circle has the coordinates $(x, y)$. What is the value of $\\sec \\theta$ ?\nChoices:\nA:$\\frac{1}{x}$\nB:$x$\nC:$y$\nD:$\\frac{1}{y}$",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: A circle the center of the circle is the origin and the radius of the circle is 1. The point $P$ on the unit circle has the coordinates $(x, y)$. What is the value of $\\sec \\theta$ ?\nChoices:\nA:$\\frac{1}{x}$\nB:$x$\nC:$y$\nD:$\\frac{1}{y}$",
+        "question_for_eval": "A circle the center of the circle is the origin and the radius of the circle is 1. The point $P$ on the unit circle has the coordinates $(x, y)$. What is the value of $\\sec \\theta$ ?\nChoices:\nA:$\\frac{1}{x}$\nB:$x$\nC:$y$\nD:$\\frac{1}{y}$"
+    },
+    {
+        "sample_index": "3403",
+        "problem_index": "681",
+        "problem_version": "Vision Intensive",
+        "question": "The length of BC side is 10 cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+        "image": "images_version_1-4/image_681.png",
+        "answer": "75.15 \\mathrm{m}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The length of BC side is 10 cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The length of BC side is 10 cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part.",
+        "question_for_eval": "The length of BC side is 10 cm.\nCalculate the area of the divider correct to two decimal places, using your rounded answer from the previous part."
+    },
+    {
+        "sample_index": "444",
+        "problem_index": "89",
+        "problem_version": "Vision Dominant",
+        "question": "As shown in the figure, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0",
+        "image": "images_version_5/image_89.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0",
+        "question_for_eval": "As shown in the figure, then the degree of angle BAO is ()\nChoices:\nA:50\u00b0\nB:55\u00b0\nC:60\u00b0\nD:65\u00b0"
+    },
+    {
+        "sample_index": "3834",
+        "problem_index": "767",
+        "problem_version": "Vision Dominant",
+        "question": "In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?",
+        "image": "images_version_5/image_767.png",
+        "answer": "0",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?",
+        "question_for_eval": "In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?"
+    },
+    {
+        "sample_index": "2905",
+        "problem_index": "581",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_581.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "For function graphed below, determine if it has an inverse function.\nChoices:\nA:Yes\nB:No"
+    },
+    {
+        "sample_index": "2262",
+        "problem_index": "453",
+        "problem_version": "Text Lite",
+        "question": "State the coordinates of the centre of the figure in the form $(a, b)$.\n",
+        "image": "images_version_1-4/image_453.png",
+        "answer": "(0,0)",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: State the coordinates of the centre of the figure in the form $(a, b)$.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: State the coordinates of the centre of the figure in the form $(a, b)$.\n",
+        "question_for_eval": "State the coordinates of the centre of the figure in the form $(a, b)$.\n"
+    },
+    {
+        "sample_index": "1563",
+        "problem_index": "313",
+        "problem_version": "Vision Intensive",
+        "question": "Find the area of the figure. Round to the nearest tenth.\nChoices:\nA:19.5\nB:30.2\nC:60.4\nD:120.8",
+        "image": "images_version_1-4/image_313.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find the area of the figure. Round to the nearest tenth.\nChoices:\nA:19.5\nB:30.2\nC:60.4\nD:120.8",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find the area of the figure. Round to the nearest tenth.\nChoices:\nA:19.5\nB:30.2\nC:60.4\nD:120.8",
+        "question_for_eval": "Find the area of the figure. Round to the nearest tenth.\nChoices:\nA:19.5\nB:30.2\nC:60.4\nD:120.8"
+    },
+    {
+        "sample_index": "3794",
+        "problem_index": "759",
+        "problem_version": "Vision Dominant",
+        "question": "In the figure above. What is the value of y?\nChoices:\nA.65\nB.70\nC.75\nD.80\nE.85\n",
+        "image": "images_version_5/image_759.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In the figure above. What is the value of y?\nChoices:\nA.65\nB.70\nC.75\nD.80\nE.85\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the figure above. What is the value of y?\nChoices:\nA.65\nB.70\nC.75\nD.80\nE.85\n",
+        "question_for_eval": "In the figure above. What is the value of y?\nChoices:\nA.65\nB.70\nC.75\nD.80\nE.85\n"
+    },
+    {
+        "sample_index": "3740",
+        "problem_index": "748",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_748.png",
+        "answer": "23.41",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "The following is a right pyramid on a square base. A right pyramid has its apex aligned directly above the centre of its base.\n\nUse your answer from part (a) to find the length of VW, the perpendicular height of the pyramid correct to two decimal places."
+    },
+    {
+        "sample_index": "3654",
+        "problem_index": "731",
+        "problem_version": "Vision Dominant",
+        "question": "Find the volume of the prism.",
+        "image": "images_version_5/image_731.png",
+        "answer": "32 \\mathrm{cm}^3",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the volume of the prism.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the volume of the prism.",
+        "question_for_eval": "Find the volume of the prism."
+    },
+    {
+        "sample_index": "1955",
+        "problem_index": "391",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_391.png",
+        "answer": "$D=13.37$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "What is the diameter $D$ of the circle?\n\nRound your answer to two decimal places."
+    },
+    {
+        "sample_index": "3306",
+        "problem_index": "662",
+        "problem_version": "Text Dominant",
+        "question": "Consider the solid pictured and answer the following:\n\nHence what is the total surface area? The outer radius is 11 cm, inner radius is 10 cm and length 24 cm.\n\nGive your answer to the nearest two decimal places.",
+        "image": "images_version_1-4/image_662.png",
+        "answer": "$\\mathrm{SA}=3298.67 \\mathrm{~cm}^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Consider the solid pictured and answer the following:\n\nHence what is the total surface area? The outer radius is 11 cm, inner radius is 10 cm and length 24 cm.\n\nGive your answer to the nearest two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Consider the solid pictured and answer the following:\n\nHence what is the total surface area? The outer radius is 11 cm, inner radius is 10 cm and length 24 cm.\n\nGive your answer to the nearest two decimal places.",
+        "question_for_eval": "Consider the solid pictured and answer the following:\n\nHence what is the total surface area? The outer radius is 11 cm, inner radius is 10 cm and length 24 cm.\n\nGive your answer to the nearest two decimal places."
+    },
+    {
+        "sample_index": "2591",
+        "problem_index": "519",
+        "problem_version": "Text Dominant",
+        "question": "The function $f(x)=5 x-x^2$ in blue gives the number of mosquitos in the forest (in millions), and the function $g(x)=3 x-0.5 x^2$ in red gives the number of bats (in millions). In both equations $x$ represents rainfall (in centimeters). $g(x)$ goes through (0,0), (3,6), (6,0) and opens downward. $f(x)$ in blue goes through (0,0), (2,6), (3,6), (5,0) and opens downsward. When there is $0 \\mathrm{~cm}$ of rainfall, the number of mosquitos is the same as the number of bats. What is another rainfall amount where the number of mosquitos is the same as the number of bats?\nRound your answer to the nearest half centimeter.\n",
+        "image": "images_version_1-4/image_519.png",
+        "answer": "4",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The function $f(x)=5 x-x^2$ in blue gives the number of mosquitos in the forest (in millions), and the function $g(x)=3 x-0.5 x^2$ in red gives the number of bats (in millions). In both equations $x$ represents rainfall (in centimeters). $g(x)$ goes through (0,0), (3,6), (6,0) and opens downward. $f(x)$ in blue goes through (0,0), (2,6), (3,6), (5,0) and opens downsward. When there is $0 \\mathrm{~cm}$ of rainfall, the number of mosquitos is the same as the number of bats. What is another rainfall amount where the number of mosquitos is the same as the number of bats?\nRound your answer to the nearest half centimeter.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The function $f(x)=5 x-x^2$ in blue gives the number of mosquitos in the forest (in millions), and the function $g(x)=3 x-0.5 x^2$ in red gives the number of bats (in millions). In both equations $x$ represents rainfall (in centimeters). $g(x)$ goes through (0,0), (3,6), (6,0) and opens downward. $f(x)$ in blue goes through (0,0), (2,6), (3,6), (5,0) and opens downsward. When there is $0 \\mathrm{~cm}$ of rainfall, the number of mosquitos is the same as the number of bats. What is another rainfall amount where the number of mosquitos is the same as the number of bats?\nRound your answer to the nearest half centimeter.\n",
+        "question_for_eval": "The function $f(x)=5 x-x^2$ in blue gives the number of mosquitos in the forest (in millions), and the function $g(x)=3 x-0.5 x^2$ in red gives the number of bats (in millions). In both equations $x$ represents rainfall (in centimeters). $g(x)$ goes through (0,0), (3,6), (6,0) and opens downward. $f(x)$ in blue goes through (0,0), (2,6), (3,6), (5,0) and opens downsward. When there is $0 \\mathrm{~cm}$ of rainfall, the number of mosquitos is the same as the number of bats. What is another rainfall amount where the number of mosquitos is the same as the number of bats?\nRound your answer to the nearest half centimeter.\n"
+    },
+    {
+        "sample_index": "3908",
+        "problem_index": "782",
+        "problem_version": "Vision Intensive",
+        "question": "In the figure above. If AE = x and ED = 4, what is length BC?\nChoices:\nA.6\nB.8\nC.2*x\nD.4*x\nE.4*x^2",
+        "image": "images_version_1-4/image_782.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In the figure above. If AE = x and ED = 4, what is length BC?\nChoices:\nA.6\nB.8\nC.2*x\nD.4*x\nE.4*x^2",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the figure above. If AE = x and ED = 4, what is length BC?\nChoices:\nA.6\nB.8\nC.2*x\nD.4*x\nE.4*x^2",
+        "question_for_eval": "In the figure above. If AE = x and ED = 4, what is length BC?\nChoices:\nA.6\nB.8\nC.2*x\nD.4*x\nE.4*x^2"
+    }
+]

@@ -1,0 +1,308 @@
+[
+    {
+        "sample_index": "2951",
+        "problem_index": "591",
+        "problem_version": "Text Dominant",
+        "question": "The line passes (0,2), (1,0). What is the slope of the line?\n",
+        "image": "images_version_1-4/image_591.png",
+        "answer": "-2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The line passes (0,2), (1,0). What is the slope of the line?\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The line passes (0,2), (1,0). What is the slope of the line?\n",
+        "question_for_eval": "The line passes (0,2), (1,0). What is the slope of the line?\n"
+    },
+    {
+        "sample_index": "2325",
+        "problem_index": "465",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_465.png",
+        "answer": "(x+3)^2+(y+3)^2=9",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Write the equation of the figure."
+    },
+    {
+        "sample_index": "2407",
+        "problem_index": "482",
+        "problem_version": "Text Lite",
+        "question": "Write the domain and range of the function using interval notation.\n",
+        "image": "images_version_1-4/image_482.png",
+        "answer": "domain: (2,8] and range: [6,8)",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Write the domain and range of the function using interval notation.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Write the domain and range of the function using interval notation.\n",
+        "question_for_eval": "Write the domain and range of the function using interval notation.\n"
+    },
+    {
+        "sample_index": "1329",
+        "problem_index": "266",
+        "problem_version": "Vision Dominant",
+        "question": "Use parallelogram M N P R to find m \\angle R M N.\nChoices:\nA:33\nB:38\nC:71\nD:109",
+        "image": "images_version_5/image_266.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Use parallelogram M N P R to find m \\angle R M N.\nChoices:\nA:33\nB:38\nC:71\nD:109",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Use parallelogram M N P R to find m \\angle R M N.\nChoices:\nA:33\nB:38\nC:71\nD:109",
+        "question_for_eval": "Use parallelogram M N P R to find m \\angle R M N.\nChoices:\nA:33\nB:38\nC:71\nD:109"
+    },
+    {
+        "sample_index": "2958",
+        "problem_index": "592",
+        "problem_version": "Vision Intensive",
+        "question": "What is the slope of the figure?\n",
+        "image": "images_version_1-4/image_592.png",
+        "answer": "=\\frac{7}{4}",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: What is the slope of the figure?\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: What is the slope of the figure?\n",
+        "question_for_eval": "What is the slope of the figure?\n"
+    },
+    {
+        "sample_index": "2037",
+        "problem_index": "408",
+        "problem_version": "Text Lite",
+        "question": "Find the perimeter of the sector shown, correct to two decimal places.",
+        "image": "images_version_1-4/image_408.png",
+        "answer": "Perimeter $=18.89 \\mathrm{~cm}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the perimeter of the sector shown, correct to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the perimeter of the sector shown, correct to two decimal places.",
+        "question_for_eval": "Find the perimeter of the sector shown, correct to two decimal places."
+    },
+    {
+        "sample_index": "1433",
+        "problem_index": "287",
+        "problem_version": "Vision Intensive",
+        "question": "Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79",
+        "image": "images_version_1-4/image_287.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79",
+        "question_for_eval": "Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79"
+    },
+    {
+        "sample_index": "3010",
+        "problem_index": "602",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_602.png",
+        "answer": "$[-5,-3) \\cup(-3,5]$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Let $f$ be the function given by the following graph. What is the domain of $f$? "
+    },
+    {
+        "sample_index": "1421",
+        "problem_index": "285",
+        "problem_version": "Text Dominant",
+        "question": "In the right triangle, the hypotenuse is x length with an altitule of 8 length. The other two sides are y and z length. Find z.\nChoices:\nA:10\nB:\\frac { 32 } { 3 }\nC:\\frac { 40 } { 3 }\nD:\\frac { 50 } { 3 }",
+        "image": "images_version_1-4/image_285.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In the right triangle, the hypotenuse is x length with an altitule of 8 length. The other two sides are y and z length. Find z.\nChoices:\nA:10\nB:\\frac { 32 } { 3 }\nC:\\frac { 40 } { 3 }\nD:\\frac { 50 } { 3 }",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the right triangle, the hypotenuse is x length with an altitule of 8 length. The other two sides are y and z length. Find z.\nChoices:\nA:10\nB:\\frac { 32 } { 3 }\nC:\\frac { 40 } { 3 }\nD:\\frac { 50 } { 3 }",
+        "question_for_eval": "In the right triangle, the hypotenuse is x length with an altitule of 8 length. The other two sides are y and z length. Find z.\nChoices:\nA:10\nB:\\frac { 32 } { 3 }\nC:\\frac { 40 } { 3 }\nD:\\frac { 50 } { 3 }"
+    },
+    {
+        "sample_index": "1255",
+        "problem_index": "251",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_251.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "Find x. Round the angle measure to the nearest degree.\nChoices:\nA:98\nB:103\nC:108\nD:113"
+    },
+    {
+        "sample_index": "2258",
+        "problem_index": "452",
+        "problem_version": "Vision Intensive",
+        "question": "Find the equation of the figure in point-slope form .\n",
+        "image": "images_version_1-4/image_452.png",
+        "answer": "$y-3=\\frac{2}{3}(x-8)$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the equation of the figure in point-slope form .\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the equation of the figure in point-slope form .\n",
+        "question_for_eval": "Find the equation of the figure in point-slope form .\n"
+    },
+    {
+        "sample_index": "1183",
+        "problem_index": "237",
+        "problem_version": "Vision Intensive",
+        "question": "\\angle Q R P is 33 degrees, and \\angle P Q S is 51 degrees. Find m \\angle 1.\nChoices:\nA:39\nB:84\nC:108\nD:129",
+        "image": "images_version_1-4/image_237.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: \\angle Q R P is 33 degrees, and \\angle P Q S is 51 degrees. Find m \\angle 1.\nChoices:\nA:39\nB:84\nC:108\nD:129",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \\angle Q R P is 33 degrees, and \\angle P Q S is 51 degrees. Find m \\angle 1.\nChoices:\nA:39\nB:84\nC:108\nD:129",
+        "question_for_eval": "\\angle Q R P is 33 degrees, and \\angle P Q S is 51 degrees. Find m \\angle 1.\nChoices:\nA:39\nB:84\nC:108\nD:129"
+    },
+    {
+        "sample_index": "3395",
+        "problem_index": "679",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_679.png",
+        "answer": "54.74",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Find z, the size of \\angle AGH, correct to 2 decimal places."
+    },
+    {
+        "sample_index": "2985",
+        "problem_index": "597",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_597.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "How many solutions \ndoes the system have?\nChoices:\nA:One\nB:Two\nC:Three\nD:Four"
+    },
+    {
+        "sample_index": "1596",
+        "problem_index": "320",
+        "problem_version": "Text Dominant",
+        "question": "The figure shows a quadrilateral ABCD, with S on AC and T on BD. For trapezoid A B C D, S and T are midpoints of the legs. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9",
+        "image": "images_version_1-4/image_320.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: The figure shows a quadrilateral ABCD, with S on AC and T on BD. For trapezoid A B C D, S and T are midpoints of the legs. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: The figure shows a quadrilateral ABCD, with S on AC and T on BD. For trapezoid A B C D, S and T are midpoints of the legs. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9",
+        "question_for_eval": "The figure shows a quadrilateral ABCD, with S on AC and T on BD. For trapezoid A B C D, S and T are midpoints of the legs. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9"
+    },
+    {
+        "sample_index": "3574",
+        "problem_index": "715",
+        "problem_version": "Vision Dominant",
+        "question": "Find the surface area of the figure shown, rounded to two decimal places.",
+        "image": "images_version_5/image_715.png",
+        "answer": "520.55 \\mathrm{cm}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the surface area of the figure shown, rounded to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the surface area of the figure shown, rounded to two decimal places.",
+        "question_for_eval": "Find the surface area of the figure shown, rounded to two decimal places."
+    },
+    {
+        "sample_index": "1646",
+        "problem_index": "330",
+        "problem_version": "Text Dominant",
+        "question": "A rally car starts at point P and races 191 kilometres south to point Q. Here the car turns west and races for 83 kilometres to point R. At point R the car must turn to head directly back to point P.\n\nWhat is the compass bearing of R from P? Give your answer to one decimal place.",
+        "image": "images_version_1-4/image_330.png",
+        "answer": "S 23.5 ^\\circ W",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: A rally car starts at point P and races 191 kilometres south to point Q. Here the car turns west and races for 83 kilometres to point R. At point R the car must turn to head directly back to point P.\n\nWhat is the compass bearing of R from P? Give your answer to one decimal place.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: A rally car starts at point P and races 191 kilometres south to point Q. Here the car turns west and races for 83 kilometres to point R. At point R the car must turn to head directly back to point P.\n\nWhat is the compass bearing of R from P? Give your answer to one decimal place.",
+        "question_for_eval": "A rally car starts at point P and races 191 kilometres south to point Q. Here the car turns west and races for 83 kilometres to point R. At point R the car must turn to head directly back to point P.\n\nWhat is the compass bearing of R from P? Give your answer to one decimal place."
+    }
+]

@@ -1,3 +1,7 @@
+from typing import Optional, Dict, Any
+from dataclasses import dataclass, field, asdict
+from transformers import GenerationConfig # Added this missing import for the to_dict method
+
 
 @dataclass
 class GeneratingArguments:
@@ -79,12 +83,43 @@ class GeneratingArguments:
         default=0,
         metadata={"help": "candidate_num"},
     )
+
+    # --- START: Added MCTS Parameters ---
+    mcts_iterations: int = field(
+        default=100,
+        metadata={"help": "Number of iterations for the MCTS algorithm."}
+    )
+    mcts_exploration_factor: float = field(
+        default=1.414,
+        metadata={"help": "Exploration factor (C) for the UCT formula in MCTS."}
+    )
+    mcts_exploration_const: Optional[float] = field(
+        default=None,
+        metadata={"help": "Alias for mcts_exploration_factor to maintain config compatibility."}
+    )
+    mcts_trace_samples: Optional[str] = field(
+        default=None,
+        metadata={
+            "help": "Comma/space separated sample indices (or positional indices) to dump detailed MCTS traces."
+        },
+    )
+    mcts_trace_dir: Optional[str] = field(
+        default=None,
+        metadata={"help": "Directory to save detailed MCTS trace dumps (JSON)."},
+    )
+    # --- END: Added MCTS Parameters ---
+
+    def __post_init__(self) -> None:
+        if self.mcts_exploration_const is not None:
+            self.mcts_exploration_factor = self.mcts_exploration_const
+
     def to_dict(self, obey_generation_config: bool = False) -> Dict[str, Any]:
         args = asdict(self)
         if args.get("max_new_tokens", -1) > 0:
             args.pop("max_length", None)
         else:
             args.pop("max_new_tokens", None)
+
         if obey_generation_config:
             generation_config = GenerationConfig()
             for key in list(args.keys()):

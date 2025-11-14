@@ -26,8 +26,8 @@ import transformers
 from transformers.models.llama.modeling_llama import (
     Cache,
     LlamaAttention,
-    LlamaFlashAttention2,
-    LlamaSdpaAttention,
+    #LlamaFlashAttention2,
+    #LlamaSdpaAttention,
     apply_rotary_pos_emb,
     repeat_kv,
 )

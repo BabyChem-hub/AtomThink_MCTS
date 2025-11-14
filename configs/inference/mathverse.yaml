@@ -1,34 +1,17 @@
-model_name_or_path: /cache/exps/AtomThink/train_full/llama32-11b-vision/llava100k_amath/
-device_map: "cuda:0"
-trust_remote_code: true
-print_param_status: false
-prm_model: /cache/data/huggingface_models/Qwen2.5-Math-PRM-7B
-prm_device_map: "cuda:1"
-prm_model_type: "qwen_math_prm"
-infer_dtype: "float16"
+# --- 通用路径 (可能会被命令行或主配置文件覆盖) ---
+remote_work_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/AtomThink/work_dir
+output_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/AtomThink/output_dir
 
-### Test data
-dataset_dir: data/test_data  # map your annotation to dataset_dir
+### 测试数据
+# 定义 MathVerse 数据集的位置和细节
+# 数据集目录
+dataset_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/data/test_data # 建议使用绝对路径
 dataset_name: MathVerse
-image_dir: data/test_data/MathVerse/images
-dataset: MathVerse/testmini.json
-template: mllama  # prompt template in src/llamafactory/data/template.py
-cutoff_len: 4096  # model_max_length
-max_samples: 2 # sampling your dataset
-prompt: slow  # base, cot, quick, slow
-answers_file: /cache/exps/AtomThink/train_full/llama32-11b-vision/llava100k_amath/inference/
-quick_match: false
-
-### inference
-method: slow
-temperature: 0.2
-top_p: 0.7
-top_k: 50
-max_new_tokens: 4096
-repetition_penalty: 1.0
-max_sampling_count: 300
-max_single_step_sampling_count: 30
-max_depth: 30
-atomthink_beam_search_num: 2
-candidate_num: 3
-image_resolution: 313600
+# 图像目录
+image_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/data/test_data/MathVerse/images # 建议使用绝对路径
+# 数据集文件名
+dataset: MathVerse/testmini.json # 或者 test.json，取决于你想运行哪个
+# prompt 模板 (应根据实际加载的模型调整)
+template: llava # LLaVA 的默认模板
+# 输入截断长度
+cutoff_len: 4096 # model_max_length

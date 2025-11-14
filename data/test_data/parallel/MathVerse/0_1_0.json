@@ -1,0 +1,308 @@
+[
+    {
+        "sample_index": "550",
+        "problem_index": "110",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_110.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "the arc ACB is exactly a semicircle. the water surface width A\u2032B\u2032 in the bridge hole is ()\nChoices:\nA:\u221a{15}m\nB:2\u221a{15}m\nC:2\u221a{17}m\nD:no solution"
+    },
+    {
+        "sample_index": "3653",
+        "problem_index": "731",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, the height of the prism is 2cm. Find the volume of the solid.",
+        "image": "images_version_1-4/image_731.png",
+        "answer": "32 \\mathrm{cm}^3",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: As shown in the figure, the height of the prism is 2cm. Find the volume of the solid.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: As shown in the figure, the height of the prism is 2cm. Find the volume of the solid.",
+        "question_for_eval": "As shown in the figure, the height of the prism is 2cm. Find the volume of the solid."
+    },
+    {
+        "sample_index": "2397",
+        "problem_index": "480",
+        "problem_version": "Text Lite",
+        "question": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "image": "images_version_1-4/image_480.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "question_for_eval": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function"
+    },
+    {
+        "sample_index": "608",
+        "problem_index": "122",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, a sector with a central angle of 120.0 and a radius of 6.0, then the height of the cone is ()\nChoices:\nA:6\nB:8\nC:3\u221a{3}\nD:4\u221a{2}",
+        "image": "images_version_1-4/image_122.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, a sector with a central angle of 120.0 and a radius of 6.0, then the height of the cone is ()\nChoices:\nA:6\nB:8\nC:3\u221a{3}\nD:4\u221a{2}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, a sector with a central angle of 120.0 and a radius of 6.0, then the height of the cone is ()\nChoices:\nA:6\nB:8\nC:3\u221a{3}\nD:4\u221a{2}",
+        "question_for_eval": "As shown in the figure, a sector with a central angle of 120.0 and a radius of 6.0, then the height of the cone is ()\nChoices:\nA:6\nB:8\nC:3\u221a{3}\nD:4\u221a{2}"
+    },
+    {
+        "sample_index": "3886",
+        "problem_index": "778",
+        "problem_version": "Text Dominant",
+        "question": "In the figure above, triangle ABC is inscribed in the circle with center O and diameter AC. If AB = AO, what is the degree measure of angle ABO?\nChoices:\nA.15*\\degree\nB.30*\\degree\nC.45*\\degree\nD.60*\\degree\nE.90*\\degree",
+        "image": "images_version_1-4/image_778.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In the figure above, triangle ABC is inscribed in the circle with center O and diameter AC. If AB = AO, what is the degree measure of angle ABO?\nChoices:\nA.15*\\degree\nB.30*\\degree\nC.45*\\degree\nD.60*\\degree\nE.90*\\degree",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the figure above, triangle ABC is inscribed in the circle with center O and diameter AC. If AB = AO, what is the degree measure of angle ABO?\nChoices:\nA.15*\\degree\nB.30*\\degree\nC.45*\\degree\nD.60*\\degree\nE.90*\\degree",
+        "question_for_eval": "In the figure above, triangle ABC is inscribed in the circle with center O and diameter AC. If AB = AO, what is the degree measure of angle ABO?\nChoices:\nA.15*\\degree\nB.30*\\degree\nC.45*\\degree\nD.60*\\degree\nE.90*\\degree"
+    },
+    {
+        "sample_index": "552",
+        "problem_index": "111",
+        "problem_version": "Text Lite",
+        "question": "angle CAB = 90.0, angle ABC = 72.0, AD is the angle bisector of angle CAB, and crossing point C is the high line CE on the AD side in triangle ACD, then the degree of angle ECD is ()\nChoices:\nA:63\u00b0\nB:45\u00b0\nC:27\u00b0\nD:18\u00b0",
+        "image": "images_version_1-4/image_111.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: angle CAB = 90.0, angle ABC = 72.0, AD is the angle bisector of angle CAB, and crossing point C is the high line CE on the AD side in triangle ACD, then the degree of angle ECD is ()\nChoices:\nA:63\u00b0\nB:45\u00b0\nC:27\u00b0\nD:18\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: angle CAB = 90.0, angle ABC = 72.0, AD is the angle bisector of angle CAB, and crossing point C is the high line CE on the AD side in triangle ACD, then the degree of angle ECD is ()\nChoices:\nA:63\u00b0\nB:45\u00b0\nC:27\u00b0\nD:18\u00b0",
+        "question_for_eval": "angle CAB = 90.0, angle ABC = 72.0, AD is the angle bisector of angle CAB, and crossing point C is the high line CE on the AD side in triangle ACD, then the degree of angle ECD is ()\nChoices:\nA:63\u00b0\nB:45\u00b0\nC:27\u00b0\nD:18\u00b0"
+    },
+    {
+        "sample_index": "291",
+        "problem_index": "59",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, AB parallel CD, AD bisects angle BAC, and angle C = 80.0, then the degree of angle D is ()\nChoices:\nA:50\u00b0\nB:60\u00b0\nC:70\u00b0\nD:100\u00b0",
+        "image": "images_version_1-4/image_59.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, AB parallel CD, AD bisects angle BAC, and angle C = 80.0, then the degree of angle D is ()\nChoices:\nA:50\u00b0\nB:60\u00b0\nC:70\u00b0\nD:100\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, AB parallel CD, AD bisects angle BAC, and angle C = 80.0, then the degree of angle D is ()\nChoices:\nA:50\u00b0\nB:60\u00b0\nC:70\u00b0\nD:100\u00b0",
+        "question_for_eval": "As shown in the figure, AB parallel CD, AD bisects angle BAC, and angle C = 80.0, then the degree of angle D is ()\nChoices:\nA:50\u00b0\nB:60\u00b0\nC:70\u00b0\nD:100\u00b0"
+    },
+    {
+        "sample_index": "2073",
+        "problem_index": "415",
+        "problem_version": "Vision Intensive",
+        "question": "Calculate the area of the following sector.\n\nRound your answer to one decimal place.",
+        "image": "images_version_1-4/image_415.png",
+        "answer": "Area $=315.4 \\mathrm{~m}^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Calculate the area of the following sector.\n\nRound your answer to one decimal place.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Calculate the area of the following sector.\n\nRound your answer to one decimal place.",
+        "question_for_eval": "Calculate the area of the following sector.\n\nRound your answer to one decimal place."
+    },
+    {
+        "sample_index": "88",
+        "problem_index": "18",
+        "problem_version": "Vision Intensive",
+        "question": "If angle 1 = 58.0, angle 2 = 58.0, angle 3 = 70.0, then angle 4 is equal to ()\nChoices:\nA:58\u00b0\nB:70\u00b0\nC:110\u00b0\nD:116\u00b0",
+        "image": "images_version_1-4/image_18.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: If angle 1 = 58.0, angle 2 = 58.0, angle 3 = 70.0, then angle 4 is equal to ()\nChoices:\nA:58\u00b0\nB:70\u00b0\nC:110\u00b0\nD:116\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: If angle 1 = 58.0, angle 2 = 58.0, angle 3 = 70.0, then angle 4 is equal to ()\nChoices:\nA:58\u00b0\nB:70\u00b0\nC:110\u00b0\nD:116\u00b0",
+        "question_for_eval": "If angle 1 = 58.0, angle 2 = 58.0, angle 3 = 70.0, then angle 4 is equal to ()\nChoices:\nA:58\u00b0\nB:70\u00b0\nC:110\u00b0\nD:116\u00b0"
+    },
+    {
+        "sample_index": "1070",
+        "problem_index": "214",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_214.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "Use parallelogram A B C D to find m \\angle A D C.\nChoices:\nA:42\nB:52\nC:72\nD:128"
+    },
+    {
+        "sample_index": "2119",
+        "problem_index": "424",
+        "problem_version": "Vision Dominant",
+        "question": "Calculate the area of the following triangle.\n\nRound your answer to two decimal places.",
+        "image": "images_version_5/image_424.png",
+        "answer": "60.21 \\mathrm{m}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Calculate the area of the following triangle.\n\nRound your answer to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Calculate the area of the following triangle.\n\nRound your answer to two decimal places.",
+        "question_for_eval": "Calculate the area of the following triangle.\n\nRound your answer to two decimal places."
+    },
+    {
+        "sample_index": "2398",
+        "problem_index": "480",
+        "problem_version": "Vision Intensive",
+        "question": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "image": "images_version_1-4/image_480.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "question_for_eval": "Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function"
+    },
+    {
+        "sample_index": "3875",
+        "problem_index": "775",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_775.png",
+        "answer": "24",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "The perimeter of the rectangle above is p and the area of the rectangle is 36. If l and w are integers, what is one possible value of p?"
+    },
+    {
+        "sample_index": "79",
+        "problem_index": "16",
+        "problem_version": "Vision Dominant",
+        "question": "As shown in the figure, chord AC parallel radius OB, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0",
+        "image": "images_version_5/image_16.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, chord AC parallel radius OB, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, chord AC parallel radius OB, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0",
+        "question_for_eval": "As shown in the figure, chord AC parallel radius OB, then the degree of angle OAB is ()\nChoices:\nA:25\u00b0\nB:50\u00b0\nC:60\u00b0\nD:30\u00b0"
+    },
+    {
+        "sample_index": "2742",
+        "problem_index": "549",
+        "problem_version": "Text Lite",
+        "question": "There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n",
+        "image": "images_version_1-4/image_549.png",
+        "answer": "12.5",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n",
+        "question_for_eval": "There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n"
+    },
+    {
+        "sample_index": "3922",
+        "problem_index": "785",
+        "problem_version": "Text Lite",
+        "question": "In the figure above, a shaded polygon which has equal sides and equal angles is partially covered with a sheet of blank paper. If x + y = 80, how many sides does the polygon have?\nChoices:\nA.Ten\nB.Nine\nC.Eight\nD.Seven\nE.Six",
+        "image": "images_version_1-4/image_785.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In the figure above, a shaded polygon which has equal sides and equal angles is partially covered with a sheet of blank paper. If x + y = 80, how many sides does the polygon have?\nChoices:\nA.Ten\nB.Nine\nC.Eight\nD.Seven\nE.Six",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the figure above, a shaded polygon which has equal sides and equal angles is partially covered with a sheet of blank paper. If x + y = 80, how many sides does the polygon have?\nChoices:\nA.Ten\nB.Nine\nC.Eight\nD.Seven\nE.Six",
+        "question_for_eval": "In the figure above, a shaded polygon which has equal sides and equal angles is partially covered with a sheet of blank paper. If x + y = 80, how many sides does the polygon have?\nChoices:\nA.Ten\nB.Nine\nC.Eight\nD.Seven\nE.Six"
+    },
+    {
+        "sample_index": "566",
+        "problem_index": "114",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, in the sector OAB with a radius of 1.0 and a central angle of 90.0, OA and OB are the diameters respectively as a semicircle, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2",
+        "image": "images_version_1-4/image_114.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, in the sector OAB with a radius of 1.0 and a central angle of 90.0, OA and OB are the diameters respectively as a semicircle, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, in the sector OAB with a radius of 1.0 and a central angle of 90.0, OA and OB are the diameters respectively as a semicircle, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2",
+        "question_for_eval": "As shown in the figure, in the sector OAB with a radius of 1.0 and a central angle of 90.0, OA and OB are the diameters respectively as a semicircle, and the area of the shaded part in the figure is ()\nChoices:\nA:\u03c0cm\u00b2\nB:\\frac{2}{3}\u03c0cm\u00b2\nC:\\frac{1}{2}cm\u00b2\nD:\\frac{2}{3}cm\u00b2"
+    }
+]

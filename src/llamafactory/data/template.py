@@ -807,7 +807,7 @@ _register_template(
     mm_plugin=get_mm_plugin(name="llava", image_token="<image>"),
 )
 
-
+'''
 # copied from vicuna template
 _register_template(
     name="llava_next",
@@ -818,7 +818,6 @@ _register_template(
     ),
     mm_plugin=get_mm_plugin(name="llava_next", image_token="<image>"),
 )
-
 
 # copied from llama3 template
 _register_template(
@@ -926,7 +925,7 @@ _register_template(
     replace_eos=True,
     mm_plugin=get_mm_plugin(name="llava_next_video", image_token="<image>", video_token="<video>"),
 )
-
+'''
 
 # copied from chatml template
 _register_template(
@@ -1004,7 +1003,7 @@ _register_template(
     format_prefix=EmptyFormatter(slots=[{"bos_token"}]),
 )
 
-
+'''
 # copied from gemma template
 _register_template(
     name="paligemma",
@@ -1018,7 +1017,7 @@ _register_template(
     mm_plugin=get_mm_plugin(name="paligemma", image_token="<image>"),
 )
 
-
+'''
 _register_template(
     name="phi",
     format_user=StringFormatter(slots=["<|user|>\n{{content}}<|end|>\n<|assistant|>\n"]),
@@ -1040,7 +1039,7 @@ _register_template(
     replace_eos=True,
 )
 
-
+'''
 _register_template(
     name="pixtral",
     format_user=StringFormatter(slots=["[INST] {{content}} [/INST]"]),
@@ -1048,7 +1047,7 @@ _register_template(
     mm_plugin=get_mm_plugin(name="pixtral", image_token="[IMG]"),
 )
 
-
+'''
 # copied from chatml template
 _register_template(
     name="qwen",
@@ -1064,7 +1063,7 @@ _register_template(
     stop_words=["<|im_end|>"],
 )
 
-
+'''
 # copied from chatml template
 _register_template(
     name="qwen2_vl",
@@ -1080,7 +1079,7 @@ _register_template(
     stop_words=["<|im_end|>"],
     mm_plugin=get_mm_plugin(name="qwen2_vl", image_token="<|image_pad|>", video_token="<|video_pad|>"),
 )
-
+'''
 
 _register_template(
     name="sailor",
@@ -1171,7 +1170,7 @@ _register_template(
     ),
     replace_jinja_template=True,
 )
-
+'''
 
 _register_template(
     name="video_llava",
@@ -1182,7 +1181,7 @@ _register_template(
     ),
     mm_plugin=get_mm_plugin(name="video_llava", image_token="<image>", video_token="<video>"),
 )
-
+'''
 
 _register_template(
     name="xuanyuan",

@@ -114,3 +114,24 @@ def get_repeated_sentence_ratio(text):
         return 0
     repeated_ratio = repeated_sentences / total_sentences
     return repeated_ratio
+
+
+FINAL_ANSWER_PATTERNS = (
+    r"\bfinal answer\b",
+    r"\bthe final answer is\b",
+    r"\bthe answer is\b",
+    r"\\boxed\s*\{",
+)
+
+
+def has_final_answer_marker(text: str) -> bool:
+    """
+    判断生成内容是否已经包含最终答案的标记。
+    """
+    if not text:
+        return False
+    lowered = text.lower()
+    for pattern in FINAL_ANSWER_PATTERNS:
+        if re.search(pattern, lowered):
+            return True
+    return False

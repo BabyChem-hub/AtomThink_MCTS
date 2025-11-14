@@ -1,0 +1,32 @@
+answers_file: evaluation_results/MathVerse_slow/inference/MathVerse/manual_run
+atomthink_beam_search_num: 2
+candidate_num: 3
+cutoff_len: 2048
+dataset: MathVerse/testmini.json
+dataset_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/data/test_data
+dataset_name: MathVerse
+generating_args:
+  do_sample: true
+image_dir: /data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/data/test_data/MathVerse/images
+image_resolution: 313600
+infer_dtype: float16
+max_depth: 30
+max_new_tokens: 2048
+max_samples: null
+max_sampling_count: 300
+max_single_step_sampling_count: 30
+method: slow
+model_name_or_path: /data1/xiangkun/MODELS/llava-v1.5-7b
+output_dir: evaluation_results/MathVerse_slow
+print_param_status: false
+prm_model: /data1/xiangkun/DATA/AtomMATH/out_prm_v2
+prm_model_type: default
+prompt: slow
+remote_work_dir: evaluation_results/MathVerse_slow/remote_temp
+repetition_penalty: 1.0
+temperature: 0.2
+template: llava
+top_k: 50
+top_p: 0.7
+trust_remote_code: true
+use_fast_tokenizer: false

@@ -55,6 +55,7 @@ def s4_show_scores(answers_file):
             score_dict[save_inst['metadata']['subject']][save_inst['metadata']['subfield']].append(save_inst['score'])
             score_version_dict[save_inst['problem_version']].append(save_inst['score'])
         total_cnt, right_cnt = 0, 0
+        subject_summary = {}
         for subject in score_dict:
             subject_total_cnt, subject_right_cnt = 0, 0
             for subfield in score_dict[subject]:
@@ -63,15 +64,24 @@ def s4_show_scores(answers_file):
                 subject_total_cnt += subfield_total_cnt
                 subject_right_cnt += subfield_right_cnt
                 logger.info(f"{subject}-{subfield} Acc: {(subfield_right_cnt / subfield_total_cnt):.3f}")
-                file.write(f"{subject}-{subfield} Acc: {(subfield_right_cnt / subfield_total_cnt):.3f}")
+                file.write(f"{subject}-{subfield} Acc: {(subfield_right_cnt / subfield_total_cnt):.3f}\n")
             logger.info(f"{subject} Acc: {(subject_right_cnt / subject_total_cnt):.3f}")
-            file.write(f"{subject} Acc: {(subject_right_cnt / subject_total_cnt):.3f}")
+            file.write(f"{subject} Acc: {(subject_right_cnt / subject_total_cnt):.3f}\n")
+            subject_summary[subject] = {
+                "accuracy": subject_right_cnt / subject_total_cnt if subject_total_cnt else 0.0,
+                "count": subject_total_cnt,
+            }
             total_cnt += subject_total_cnt
             right_cnt += subject_right_cnt
-        logger.info(f"Total Acc: {(right_cnt / total_cnt):.3f}")
-        file.write(f"Total Acc: {(right_cnt / total_cnt):.3f}")
+        overall_total_cnt = total_cnt
+        overall_right_cnt = right_cnt
+        overall_acc = overall_right_cnt / overall_total_cnt if overall_total_cnt else 0.0
+        logger.info(f"Total Acc: {overall_acc:.3f}")
+        print(f"总体正确率 (Total Acc): {overall_acc:.3f} ({overall_right_cnt}/{overall_total_cnt})")
+        file.write(f"Total Acc: {overall_acc:.3f}\n")
 
         total_cnt, right_cnt = 0, 0
+        version_summary = {}
         for version in score_version_dict:
             version_total_cnt = len(score_version_dict[version])
             version_right_cnt = len([inst for inst in score_version_dict[version] if inst == 1])
@@ -79,9 +89,22 @@ def s4_show_scores(answers_file):
             right_cnt += version_right_cnt
             logger.info(f"{version} Acc: {(version_right_cnt / version_total_cnt):.3f}")
             logger.info(version_total_cnt)
-            file.write(f"{version} Acc: {(version_right_cnt / version_total_cnt):.3f}")
-        logger.info(f"Acc: {(right_cnt / total_cnt):.3f}")
-        file.write(f"Acc: {(right_cnt / total_cnt):.3f}")
+            file.write(f"{version} Acc: {(version_right_cnt / version_total_cnt):.3f}\n")
+            version_summary[version] = {
+                "accuracy": version_right_cnt / version_total_cnt if version_total_cnt else 0.0,
+                "count": version_total_cnt,
+            }
+        overall_version_acc = right_cnt / total_cnt if total_cnt else 0.0
+        logger.info(f"Acc: {overall_version_acc:.3f}")
+        file.write(f"Acc: {overall_version_acc:.3f}\n")
+
+    return {
+        "overall_accuracy": overall_acc,
+        "total": overall_total_cnt,
+        "correct": overall_right_cnt,
+        "by_subject": subject_summary,
+        "by_version": version_summary,
+    }
 
 def create_dir(output_dir):
     if not os.path.exists(output_dir):

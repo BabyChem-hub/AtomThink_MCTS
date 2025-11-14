@@ -1,0 +1,578 @@
+[
+    {
+        "sample_index": "128",
+        "problem_index": "26",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14",
+        "image": "images_version_1-4/image_26.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14",
+        "question_for_eval": "As shown in the figure, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14"
+    },
+    {
+        "sample_index": "2391",
+        "problem_index": "479",
+        "problem_version": "Text Dominant",
+        "question": "There is a curve that goes through (-3,0), (-2,1), and (-1,2). Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "image": "images_version_1-4/image_479.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: There is a curve that goes through (-3,0), (-2,1), and (-1,2). Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: There is a curve that goes through (-3,0), (-2,1), and (-1,2). Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function",
+        "question_for_eval": "There is a curve that goes through (-3,0), (-2,1), and (-1,2). Determine if this relation is a one-to-one function.\nChoices:\nA:This is a one-to-one function\nB:This is not a one-to-one function"
+    },
+    {
+        "sample_index": "194",
+        "problem_index": "39",
+        "problem_version": "Vision Dominant",
+        "question": "then the degree of angle 2 is ()\nChoices:\nA:100\u00b0\nB:110\u00b0\nC:120\u00b0\nD:140\u00b0",
+        "image": "images_version_5/image_39.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: then the degree of angle 2 is ()\nChoices:\nA:100\u00b0\nB:110\u00b0\nC:120\u00b0\nD:140\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: then the degree of angle 2 is ()\nChoices:\nA:100\u00b0\nB:110\u00b0\nC:120\u00b0\nD:140\u00b0",
+        "question_for_eval": "then the degree of angle 2 is ()\nChoices:\nA:100\u00b0\nB:110\u00b0\nC:120\u00b0\nD:140\u00b0"
+    },
+    {
+        "sample_index": "1276",
+        "problem_index": "256",
+        "problem_version": "Text Dominant",
+        "question": "Lines l, m, and n are perpendicular bisectors of \\triangle P Q R and meet at T. If T Q = 2 x, P T = 3 y - 1, T Q = 2 x, and T R = 8, find z.\nChoices:\nA:3\nB:4\nC:5\nD:6",
+        "image": "images_version_1-4/image_256.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Lines l, m, and n are perpendicular bisectors of \\triangle P Q R and meet at T. If T Q = 2 x, P T = 3 y - 1, T Q = 2 x, and T R = 8, find z.\nChoices:\nA:3\nB:4\nC:5\nD:6",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Lines l, m, and n are perpendicular bisectors of \\triangle P Q R and meet at T. If T Q = 2 x, P T = 3 y - 1, T Q = 2 x, and T R = 8, find z.\nChoices:\nA:3\nB:4\nC:5\nD:6",
+        "question_for_eval": "Lines l, m, and n are perpendicular bisectors of \\triangle P Q R and meet at T. If T Q = 2 x, P T = 3 y - 1, T Q = 2 x, and T R = 8, find z.\nChoices:\nA:3\nB:4\nC:5\nD:6"
+    },
+    {
+        "sample_index": "880",
+        "problem_index": "176",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_176.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure, angle BAC + angle EAD = 180.0, then the radius of circle A is ()\nChoices:\nA:10\nB:6\nC:5\nD:8"
+    },
+    {
+        "sample_index": "235",
+        "problem_index": "47",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_47.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure, the straight line AB parallel CD, then angle 1 is equal to ()\nChoices:\nA:132\u00b0\nB:134\u00b0\nC:136\u00b0\nD:138\u00b0"
+    },
+    {
+        "sample_index": "1510",
+        "problem_index": "302",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_302.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "FK H and J I are parallel. Find K J.\nChoices:\nA:2\nB:4\nC:6\nD:8"
+    },
+    {
+        "sample_index": "1244",
+        "problem_index": "249",
+        "problem_version": "Vision Dominant",
+        "question": "Find the measure of \\angle C F D.\nChoices:\nA:115\nB:119\nC:120\nD:123",
+        "image": "images_version_5/image_249.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find the measure of \\angle C F D.\nChoices:\nA:115\nB:119\nC:120\nD:123",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find the measure of \\angle C F D.\nChoices:\nA:115\nB:119\nC:120\nD:123",
+        "question_for_eval": "Find the measure of \\angle C F D.\nChoices:\nA:115\nB:119\nC:120\nD:123"
+    },
+    {
+        "sample_index": "2005",
+        "problem_index": "401",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_401.png",
+        "answer": "Area $=\\frac{147 \\pi}{4} \\mathrm{~cm}^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Calculate the area of the following figure.\n\nGive your answer as an exact value."
+    },
+    {
+        "sample_index": "3832",
+        "problem_index": "767",
+        "problem_version": "Text Lite",
+        "question": "In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?",
+        "image": "images_version_1-4/image_767.png",
+        "answer": "0",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?",
+        "question_for_eval": "In rectangle ABDF above, C and E are midpoints of sides BD and DF, respectively. What fraction of the area of the rectangle is shaded?"
+    },
+    {
+        "sample_index": "2155",
+        "problem_index": "431",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_431.png",
+        "answer": "$h=15$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Iain first walks west and then south looking for a petrol station.\n\nIf he is now $h$ km directly from his starting point, find the value of $h$."
+    },
+    {
+        "sample_index": "1142",
+        "problem_index": "229",
+        "problem_version": "Text Lite",
+        "question": "Let A B be the median of trapezoid R S T Q. R A equals A Q, and S B equals B T. Find A B.\nChoices:\nA:27\nB:54\nC:70\nD:86",
+        "image": "images_version_1-4/image_229.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Let A B be the median of trapezoid R S T Q. R A equals A Q, and S B equals B T. Find A B.\nChoices:\nA:27\nB:54\nC:70\nD:86",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Let A B be the median of trapezoid R S T Q. R A equals A Q, and S B equals B T. Find A B.\nChoices:\nA:27\nB:54\nC:70\nD:86",
+        "question_for_eval": "Let A B be the median of trapezoid R S T Q. R A equals A Q, and S B equals B T. Find A B.\nChoices:\nA:27\nB:54\nC:70\nD:86"
+    },
+    {
+        "sample_index": "1430",
+        "problem_index": "286",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_286.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "Find H P. Round to the nearest hundredth.\nChoices:\nA:2.29\nB:3.35\nC:5.65\nD:6.71"
+    },
+    {
+        "sample_index": "3915",
+        "problem_index": "783",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_783.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "What is the value of z?\nChoices:\nA.60\nB.70\nC.80\nD.90\nE.100\n"
+    },
+    {
+        "sample_index": "1733",
+        "problem_index": "347",
+        "problem_version": "Vision Intensive",
+        "question": "Find the value of H.\n\nRound your answer to the nearest whole number.",
+        "image": "images_version_1-4/image_347.png",
+        "answer": "19",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the value of H.\n\nRound your answer to the nearest whole number.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the value of H.\n\nRound your answer to the nearest whole number.",
+        "question_for_eval": "Find the value of H.\n\nRound your answer to the nearest whole number."
+    },
+    {
+        "sample_index": "1990",
+        "problem_index": "398",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_398.png",
+        "answer": "Area $=\\frac{\\pi}{25} \\mathrm{~cm}^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Find the area of the circle shown.\n\nGive your answer as an exact value."
+    },
+    {
+        "sample_index": "1960",
+        "problem_index": "392",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_392.png",
+        "answer": "Perimeter $=35.7 \\mathrm{~mm}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Calculate the total perimeter of the following figure, correct to one decimal place."
+    },
+    {
+        "sample_index": "3477",
+        "problem_index": "696",
+        "problem_version": "Text Lite",
+        "question": "Find the volume of the figure shown, correct to two decimal places. The height of both cylinders is 2 cm.",
+        "image": "images_version_1-4/image_696.png",
+        "answer": "Volume $=609.47 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the volume of the figure shown, correct to two decimal places. The height of both cylinders is 2 cm.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the volume of the figure shown, correct to two decimal places. The height of both cylinders is 2 cm.",
+        "question_for_eval": "Find the volume of the figure shown, correct to two decimal places. The height of both cylinders is 2 cm."
+    },
+    {
+        "sample_index": "1110",
+        "problem_index": "222",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_222.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "For the pair of similar figures, use the given areas to find x.\nChoices:\nA:1\nB:2\nC:8\nD:16"
+    },
+    {
+        "sample_index": "1050",
+        "problem_index": "210",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_210.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "B E and C D are parallel. Find A E \nChoices:\nA:12\nB:15\nC:16\nD:20"
+    },
+    {
+        "sample_index": "1257",
+        "problem_index": "252",
+        "problem_version": "Text Lite",
+        "question": "Q is the centroid and B E = 9. Find B Q.\nChoices:\nA:3\nB:6\nC:9\nD:12",
+        "image": "images_version_1-4/image_252.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Q is the centroid and B E = 9. Find B Q.\nChoices:\nA:3\nB:6\nC:9\nD:12",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Q is the centroid and B E = 9. Find B Q.\nChoices:\nA:3\nB:6\nC:9\nD:12",
+        "question_for_eval": "Q is the centroid and B E = 9. Find B Q.\nChoices:\nA:3\nB:6\nC:9\nD:12"
+    },
+    {
+        "sample_index": "1818",
+        "problem_index": "364",
+        "problem_version": "Vision Intensive",
+        "question": "If the length of the cable is h metres, find h to two decimal places.",
+        "image": "images_version_1-4/image_364.png",
+        "answer": "74.85",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: If the length of the cable is h metres, find h to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: If the length of the cable is h metres, find h to two decimal places.",
+        "question_for_eval": "If the length of the cable is h metres, find h to two decimal places."
+    },
+    {
+        "sample_index": "740",
+        "problem_index": "148",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_148.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure, then the height of the flag pole is ()\nChoices:\nA:12m\nB:10m\nC:8m\nD:7m"
+    },
+    {
+        "sample_index": "2036",
+        "problem_index": "408",
+        "problem_version": "Text Dominant",
+        "question": "The radius of the figure is $ 7 \\mathrm{~cm}$. Find the perimeter of the sector shown, correct to two decimal places.",
+        "image": "images_version_1-4/image_408.png",
+        "answer": "Perimeter $=18.89 \\mathrm{~cm}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The radius of the figure is $ 7 \\mathrm{~cm}$. Find the perimeter of the sector shown, correct to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The radius of the figure is $ 7 \\mathrm{~cm}$. Find the perimeter of the sector shown, correct to two decimal places.",
+        "question_for_eval": "The radius of the figure is $ 7 \\mathrm{~cm}$. Find the perimeter of the sector shown, correct to two decimal places."
+    },
+    {
+        "sample_index": "1128",
+        "problem_index": "226",
+        "problem_version": "Vision Intensive",
+        "question": "In hexagon U V W X Y Z, find W Y.\nChoices:\nA:12\nB:6 \\sqrt { 6 }\nC:12 \\sqrt { 3 }\nD:36",
+        "image": "images_version_1-4/image_226.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In hexagon U V W X Y Z, find W Y.\nChoices:\nA:12\nB:6 \\sqrt { 6 }\nC:12 \\sqrt { 3 }\nD:36",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In hexagon U V W X Y Z, find W Y.\nChoices:\nA:12\nB:6 \\sqrt { 6 }\nC:12 \\sqrt { 3 }\nD:36",
+        "question_for_eval": "In hexagon U V W X Y Z, find W Y.\nChoices:\nA:12\nB:6 \\sqrt { 6 }\nC:12 \\sqrt { 3 }\nD:36"
+    },
+    {
+        "sample_index": "3492",
+        "problem_index": "699",
+        "problem_version": "Text Lite",
+        "question": "Find the total surface area of the cube with a side length equal to 6 cm. The nine marked edges have the same length.",
+        "image": "images_version_1-4/image_699.png",
+        "answer": "216.\\mathrm{cm}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the total surface area of the cube with a side length equal to 6 cm. The nine marked edges have the same length.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the total surface area of the cube with a side length equal to 6 cm. The nine marked edges have the same length.",
+        "question_for_eval": "Find the total surface area of the cube with a side length equal to 6 cm. The nine marked edges have the same length."
+    },
+    {
+        "sample_index": "3847",
+        "problem_index": "770",
+        "problem_version": "Text Lite",
+        "question": "In the figure above, the seven small circles have equal radii. The area of the shaded portion is how many times the area of one of the small circles?",
+        "image": "images_version_1-4/image_770.png",
+        "answer": "1",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: In the figure above, the seven small circles have equal radii. The area of the shaded portion is how many times the area of one of the small circles?",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: In the figure above, the seven small circles have equal radii. The area of the shaded portion is how many times the area of one of the small circles?",
+        "question_for_eval": "In the figure above, the seven small circles have equal radii. The area of the shaded portion is how many times the area of one of the small circles?"
+    },
+    {
+        "sample_index": "3207",
+        "problem_index": "642",
+        "problem_version": "Text Lite",
+        "question": "The radius of cylinder in figure is 5 centimeters. Find the volume of the figure shown, correct to two decimal places.",
+        "image": "images_version_1-4/image_642.png",
+        "answer": "Volume $=883.57 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The radius of cylinder in figure is 5 centimeters. Find the volume of the figure shown, correct to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The radius of cylinder in figure is 5 centimeters. Find the volume of the figure shown, correct to two decimal places.",
+        "question_for_eval": "The radius of cylinder in figure is 5 centimeters. Find the volume of the figure shown, correct to two decimal places."
+    },
+    {
+        "sample_index": "2671",
+        "problem_index": "535",
+        "problem_version": "Text Dominant",
+        "question": "Below is the graph of a trigonometric function. It intersects its midline at $\\left(\\frac{2}{3} \\pi, 1.2\\right)$, and it has a minimum point at $\\left(\\frac{4}{3} \\pi,-3.4\\right)$. What is the amplitude of the function?\n",
+        "image": "images_version_1-4/image_535.png",
+        "answer": "4.6",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Below is the graph of a trigonometric function. It intersects its midline at $\\left(\\frac{2}{3} \\pi, 1.2\\right)$, and it has a minimum point at $\\left(\\frac{4}{3} \\pi,-3.4\\right)$. What is the amplitude of the function?\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Below is the graph of a trigonometric function. It intersects its midline at $\\left(\\frac{2}{3} \\pi, 1.2\\right)$, and it has a minimum point at $\\left(\\frac{4}{3} \\pi,-3.4\\right)$. What is the amplitude of the function?\n",
+        "question_for_eval": "Below is the graph of a trigonometric function. It intersects its midline at $\\left(\\frac{2}{3} \\pi, 1.2\\right)$, and it has a minimum point at $\\left(\\frac{4}{3} \\pi,-3.4\\right)$. What is the amplitude of the function?\n"
+    },
+    {
+        "sample_index": "376",
+        "problem_index": "76",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, a parallel b, point B is on the straight line b, and AB perpendicular  BC, angle 1 = 36.0, then angle 2 = ()\nChoices:\nA:54\u00b0\nB:56\u00b0\nC:44\u00b0\nD:46\u00b0",
+        "image": "images_version_1-4/image_76.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, a parallel b, point B is on the straight line b, and AB perpendicular  BC, angle 1 = 36.0, then angle 2 = ()\nChoices:\nA:54\u00b0\nB:56\u00b0\nC:44\u00b0\nD:46\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, a parallel b, point B is on the straight line b, and AB perpendicular  BC, angle 1 = 36.0, then angle 2 = ()\nChoices:\nA:54\u00b0\nB:56\u00b0\nC:44\u00b0\nD:46\u00b0",
+        "question_for_eval": "As shown in the figure, a parallel b, point B is on the straight line b, and AB perpendicular  BC, angle 1 = 36.0, then angle 2 = ()\nChoices:\nA:54\u00b0\nB:56\u00b0\nC:44\u00b0\nD:46\u00b0"
+    },
+    {
+        "sample_index": "418",
+        "problem_index": "84",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, circle O has a radius 1.0, if angle BAC = 60.0, then the length of BC is ()\nChoices:\nA:2\nB:2\u221a{3}\nC:\u221a{3}\nD:2\u221a{2}",
+        "image": "images_version_1-4/image_84.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, circle O has a radius 1.0, if angle BAC = 60.0, then the length of BC is ()\nChoices:\nA:2\nB:2\u221a{3}\nC:\u221a{3}\nD:2\u221a{2}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, circle O has a radius 1.0, if angle BAC = 60.0, then the length of BC is ()\nChoices:\nA:2\nB:2\u221a{3}\nC:\u221a{3}\nD:2\u221a{2}",
+        "question_for_eval": "As shown in the figure, circle O has a radius 1.0, if angle BAC = 60.0, then the length of BC is ()\nChoices:\nA:2\nB:2\u221a{3}\nC:\u221a{3}\nD:2\u221a{2}"
+    },
+    {
+        "sample_index": "1902",
+        "problem_index": "381",
+        "problem_version": "Text Lite",
+        "question": "Solve for the unknown w.",
+        "image": "images_version_1-4/image_381.png",
+        "answer": "22 ",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Solve for the unknown w.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Solve for the unknown w.",
+        "question_for_eval": "Solve for the unknown w."
+    }
+]

@@ -1,4 +1,4 @@
-from .prompts import atomthink_prompt_template, multimath_prompt, r1v_template, cot_prompt, amath_v3_train_template
+from .prompts import atomthink_prompt_template
 from PIL import Image
 from PIL.Image import Image as ImageObject
 from os.path import join

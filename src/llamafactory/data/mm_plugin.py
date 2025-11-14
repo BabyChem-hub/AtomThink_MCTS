@@ -250,10 +250,14 @@ class MllamaPlugin(BasePlugin):
         messages = deepcopy(messages)
         for message in messages:
             content = message["content"]
-            num_image_tokens += content.count(IMAGE_PLACEHOLDER)
-            message["content"] = content.replace(IMAGE_PLACEHOLDER, self.image_token)
+            if IMAGE_PLACEHOLDER in content:
+                content = content.replace(IMAGE_PLACEHOLDER, self.image_token)
+            num_image_tokens += content.count(self.image_token)
+            message["content"] = content
         if len(images) != num_image_tokens:
-            raise ValueError(f"The number of images does not match the number of {IMAGE_PLACEHOLDER} tokens.")
+            raise ValueError(
+                f"The number of images ({len(images)}) does not match the number of image tokens ({num_image_tokens})."
+            )
 
         return messages
 

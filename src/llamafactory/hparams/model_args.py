@@ -68,7 +68,8 @@ class ProcessorArguments:
     video_maxlen: int = field(
         default=128,
         metadata={"help": "The maximum number of sampled frames for video inputs."},
-    )@dataclass
+    )
+@dataclass
 class ExportArguments:
     r"""
     Arguments pertaining to the model export.
@@ -281,6 +282,10 @@ class ModelArguments(QuantizationArguments, ProcessorArguments, ExportArguments,
         default=None,
         init=False,
         metadata={"help": "Torch data type for computing model outputs, derived from `fp/bf16`. Do not specify it."},
+    )
+    max_memory: Optional[Dict[str, str]] = field(
+        default=None,
+        metadata={"help": "Per-device maximum memory hint passed to Accelerate/HF when loading the model."},
     )
     device_map: Optional[str] = field(
         default="auto",

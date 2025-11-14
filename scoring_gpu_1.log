@@ -1,0 +1,15 @@
+['/data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/src/llamafactory/evaluation', '/data1/xiangkun/miniconda/envs/AtomThink_zbk/lib/python310.zip', '/data1/xiangkun/miniconda/envs/AtomThink_zbk/lib/python3.10', '/data1/xiangkun/miniconda/envs/AtomThink_zbk/lib/python3.10/lib-dynload', '/data1/xiangkun/miniconda/envs/AtomThink_zbk/lib/python3.10/site-packages', '/data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai/src', '/data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai']
+/data1/xiangkun/WORKSPACE/AtomThink_MCTS/zhoubokai
+Using output directory: evaluation_results/MathVerse_base
+Reading evaluation_results/MathVerse_base/inference/MathVerse/tmp/1.json...
+  0%|          | 0/657 [00:00<?, ?it/s]The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s][A
+Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:01,  3.44it/s][A
+Loading checkpoint shards:  40%|████      | 2/5 [00:00<00:00,  3.80it/s][A
+Loading checkpoint shards:  60%|██████    | 3/5 [00:00<00:00,  3.95it/s][A
+Loading checkpoint shards:  80%|████████  | 4/5 [00:00<00:00,  4.14it/s][A
+Loading checkpoint shards: 100%|██████████| 5/5 [00:01<00:00,  4.71it/s][ALoading checkpoint shards: 100%|██████████| 5/5 [00:01<00:00,  4.31it/s]
+/data1/xiangkun/miniconda/envs/AtomThink_zbk/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:629: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+  0%|          | 1/657 [1:06:53<731:18:22, 4013.27s/it]

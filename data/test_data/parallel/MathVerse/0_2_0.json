@@ -1,0 +1,614 @@
+[
+    {
+        "sample_index": "2384",
+        "problem_index": "477",
+        "problem_version": "Vision Dominant",
+        "question": "Determine if this relation is a function.\nChoices:\nA:This is a function\nB:This is not a function",
+        "image": "images_version_5/image_477.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Determine if this relation is a function.\nChoices:\nA:This is a function\nB:This is not a function",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Determine if this relation is a function.\nChoices:\nA:This is a function\nB:This is not a function",
+        "question_for_eval": "Determine if this relation is a function.\nChoices:\nA:This is a function\nB:This is not a function"
+    },
+    {
+        "sample_index": "3251",
+        "problem_index": "651",
+        "problem_version": "Text Dominant",
+        "question": "The radius of the sphere is 8.8 centimeters. Find the volume of the sphere, giving your answer correct to two decimal places.",
+        "image": "images_version_1-4/image_651.png",
+        "answer": "Volume $=2854.54 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The radius of the sphere is 8.8 centimeters. Find the volume of the sphere, giving your answer correct to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The radius of the sphere is 8.8 centimeters. Find the volume of the sphere, giving your answer correct to two decimal places.",
+        "question_for_eval": "The radius of the sphere is 8.8 centimeters. Find the volume of the sphere, giving your answer correct to two decimal places."
+    },
+    {
+        "sample_index": "1769",
+        "problem_index": "354",
+        "problem_version": "Vision Dominant",
+        "question": "Consider the following diagram. Hence, find the length of AD correct to two decimal places.",
+        "image": "images_version_5/image_354.png",
+        "answer": "45.32",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Consider the following diagram. Hence, find the length of AD correct to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Consider the following diagram. Hence, find the length of AD correct to two decimal places.",
+        "question_for_eval": "Consider the following diagram. Hence, find the length of AD correct to two decimal places."
+    },
+    {
+        "sample_index": "1514",
+        "problem_index": "303",
+        "problem_version": "Vision Dominant",
+        "question": "\\triangle R S T \\cong \\triangle A B C. Find x.\nChoices:\nA:8\nB:10\nC:13\nD:21",
+        "image": "images_version_5/image_303.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: \\triangle R S T \\cong \\triangle A B C. Find x.\nChoices:\nA:8\nB:10\nC:13\nD:21",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \\triangle R S T \\cong \\triangle A B C. Find x.\nChoices:\nA:8\nB:10\nC:13\nD:21",
+        "question_for_eval": "\\triangle R S T \\cong \\triangle A B C. Find x.\nChoices:\nA:8\nB:10\nC:13\nD:21"
+    },
+    {
+        "sample_index": "2599",
+        "problem_index": "520",
+        "problem_version": "Vision Dominant",
+        "question": "Esteban's account balance and Anna's account balance are shown in the graph. When do the accounts have the same balance?\nRound your answer to the nearest integer. ",
+        "image": "images_version_5/image_520.png",
+        "answer": "7",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Esteban's account balance and Anna's account balance are shown in the graph. When do the accounts have the same balance?\nRound your answer to the nearest integer. ",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Esteban's account balance and Anna's account balance are shown in the graph. When do the accounts have the same balance?\nRound your answer to the nearest integer. ",
+        "question_for_eval": "Esteban's account balance and Anna's account balance are shown in the graph. When do the accounts have the same balance?\nRound your answer to the nearest integer. "
+    },
+    {
+        "sample_index": "430",
+        "problem_index": "86",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_86.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure, circle O is the circumscribed circle of triangle ABC. then the length of BC is ()\nChoices:\nA:\u221a{3}\nB:2\u221a{3}\nC:4\nD:4\u221a{3}"
+    },
+    {
+        "sample_index": "2637",
+        "problem_index": "528",
+        "problem_version": "Text Lite",
+        "question": "Which of the coordinates is equal to $\\cos (\\pi)$ ?\nChoices:\nA:$x$-coordinate of point $A$\nB:$y$-coordinate of point $A$\nC:$x$-coordinate of point $B$\nD:$y$-coordinate of point $B$\nE:$x$-coordinate of point $C$\nF:$y$-coordinate of point $C$",
+        "image": "images_version_1-4/image_528.png",
+        "answer": "E",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Coordinate"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Which of the coordinates is equal to $\\cos (\\pi)$ ?\nChoices:\nA:$x$-coordinate of point $A$\nB:$y$-coordinate of point $A$\nC:$x$-coordinate of point $B$\nD:$y$-coordinate of point $B$\nE:$x$-coordinate of point $C$\nF:$y$-coordinate of point $C$",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which of the coordinates is equal to $\\cos (\\pi)$ ?\nChoices:\nA:$x$-coordinate of point $A$\nB:$y$-coordinate of point $A$\nC:$x$-coordinate of point $B$\nD:$y$-coordinate of point $B$\nE:$x$-coordinate of point $C$\nF:$y$-coordinate of point $C$",
+        "question_for_eval": "Which of the coordinates is equal to $\\cos (\\pi)$ ?\nChoices:\nA:$x$-coordinate of point $A$\nB:$y$-coordinate of point $A$\nC:$x$-coordinate of point $B$\nD:$y$-coordinate of point $B$\nE:$x$-coordinate of point $C$\nF:$y$-coordinate of point $C$"
+    },
+    {
+        "sample_index": "2204",
+        "problem_index": "441",
+        "problem_version": "Vision Dominant",
+        "question": "The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$.",
+        "image": "images_version_5/image_441.png",
+        "answer": "$\\frac{4}{5}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$.",
+        "question_for_eval": "The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$."
+    },
+    {
+        "sample_index": "797",
+        "problem_index": "160",
+        "problem_version": "Text Lite",
+        "question": "As shown in the figure, AB = 10.0, AC = 8.0, then the value of tanB is ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}",
+        "image": "images_version_1-4/image_160.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, AB = 10.0, AC = 8.0, then the value of tanB is ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, AB = 10.0, AC = 8.0, then the value of tanB is ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}",
+        "question_for_eval": "As shown in the figure, AB = 10.0, AC = 8.0, then the value of tanB is ()\nChoices:\nA:\\frac{3}{5}\nB:\\frac{3}{4}\nC:\\frac{4}{5}\nD:\\frac{4}{3}"
+    },
+    {
+        "sample_index": "369",
+        "problem_index": "74",
+        "problem_version": "Vision Dominant",
+        "question": "As shown in the figure, AB parallel CD, then the degree of angle 2 is ()\nChoices:\nA:55\u00b0\nB:65\u00b0\nC:75\u00b0\nD:85\u00b0",
+        "image": "images_version_5/image_74.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, AB parallel CD, then the degree of angle 2 is ()\nChoices:\nA:55\u00b0\nB:65\u00b0\nC:75\u00b0\nD:85\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, AB parallel CD, then the degree of angle 2 is ()\nChoices:\nA:55\u00b0\nB:65\u00b0\nC:75\u00b0\nD:85\u00b0",
+        "question_for_eval": "As shown in the figure, AB parallel CD, then the degree of angle 2 is ()\nChoices:\nA:55\u00b0\nB:65\u00b0\nC:75\u00b0\nD:85\u00b0"
+    },
+    {
+        "sample_index": "1859",
+        "problem_index": "372",
+        "problem_version": "Vision Dominant",
+        "question": "Consider the adjacent figure:\n\nSolve for the unknown \\theta . Leave your answer in degrees.",
+        "image": "images_version_5/image_372.png",
+        "answer": "60^\\circ ",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Consider the adjacent figure:\n\nSolve for the unknown \\theta . Leave your answer in degrees.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Consider the adjacent figure:\n\nSolve for the unknown \\theta . Leave your answer in degrees.",
+        "question_for_eval": "Consider the adjacent figure:\n\nSolve for the unknown \\theta . Leave your answer in degrees."
+    },
+    {
+        "sample_index": "3393",
+        "problem_index": "679",
+        "problem_version": "Vision Intensive",
+        "question": "All edges of the following solid are 7 cm long.Find z, the size of \\angle AGH, correct to 2 decimal places.",
+        "image": "images_version_1-4/image_679.png",
+        "answer": "54.74",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: All edges of the following solid are 7 cm long.Find z, the size of \\angle AGH, correct to 2 decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: All edges of the following solid are 7 cm long.Find z, the size of \\angle AGH, correct to 2 decimal places.",
+        "question_for_eval": "All edges of the following solid are 7 cm long.Find z, the size of \\angle AGH, correct to 2 decimal places."
+    },
+    {
+        "sample_index": "687",
+        "problem_index": "138",
+        "problem_version": "Text Lite",
+        "question": "As shown in the figure, AB parallel  CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().\nChoices:\nA:\\frac{6}{5}\nB:\\frac{7}{6}\nC:\\frac{9}{5}\nD:\\frac{15}{2}",
+        "image": "images_version_1-4/image_138.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, AB parallel  CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().\nChoices:\nA:\\frac{6}{5}\nB:\\frac{7}{6}\nC:\\frac{9}{5}\nD:\\frac{15}{2}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, AB parallel  CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().\nChoices:\nA:\\frac{6}{5}\nB:\\frac{7}{6}\nC:\\frac{9}{5}\nD:\\frac{15}{2}",
+        "question_for_eval": "As shown in the figure, AB parallel  CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().\nChoices:\nA:\\frac{6}{5}\nB:\\frac{7}{6}\nC:\\frac{9}{5}\nD:\\frac{15}{2}"
+    },
+    {
+        "sample_index": "3504",
+        "problem_index": "701",
+        "problem_version": "Vision Dominant",
+        "question": "Find the surface area of the triangular prism.",
+        "image": "images_version_5/image_701.png",
+        "answer": "768 \\mathrm{cm}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the surface area of the triangular prism.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the surface area of the triangular prism.",
+        "question_for_eval": "Find the surface area of the triangular prism."
+    },
+    {
+        "sample_index": "1177",
+        "problem_index": "236",
+        "problem_version": "Text Lite",
+        "question": "Find x.\nChoices:\nA:60\nB:80\nC:90\nD:120",
+        "image": "images_version_1-4/image_236.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find x.\nChoices:\nA:60\nB:80\nC:90\nD:120",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find x.\nChoices:\nA:60\nB:80\nC:90\nD:120",
+        "question_for_eval": "Find x.\nChoices:\nA:60\nB:80\nC:90\nD:120"
+    },
+    {
+        "sample_index": "126",
+        "problem_index": "26",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, in order to measure the height of the school flagpole, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, and moves the bamboo pole so that the top of the bamboo pole and the shadow of the top of the flag pole fall on the same point on the ground. At this time, the distance between the bamboo pole and this point is 8.0 , 22.0 from the flagpole, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14",
+        "image": "images_version_1-4/image_26.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, in order to measure the height of the school flagpole, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, and moves the bamboo pole so that the top of the bamboo pole and the shadow of the top of the flag pole fall on the same point on the ground. At this time, the distance between the bamboo pole and this point is 8.0 , 22.0 from the flagpole, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, in order to measure the height of the school flagpole, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, and moves the bamboo pole so that the top of the bamboo pole and the shadow of the top of the flag pole fall on the same point on the ground. At this time, the distance between the bamboo pole and this point is 8.0 , 22.0 from the flagpole, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14",
+        "question_for_eval": "As shown in the figure, in order to measure the height of the school flagpole, Xiaodong uses a bamboo pole with a length of 3.2 as a measuring tool, and moves the bamboo pole so that the top of the bamboo pole and the shadow of the top of the flag pole fall on the same point on the ground. At this time, the distance between the bamboo pole and this point is 8.0 , 22.0 from the flagpole, the height of the flagpole is ().\nChoices:\nA:8.8\nB:10\nC:12\nD:14"
+    },
+    {
+        "sample_index": "1099",
+        "problem_index": "220",
+        "problem_version": "Vision Dominant",
+        "question": "Find m \\angle B G E.\nChoices:\nA:60\nB:120\nC:240\nD:360",
+        "image": "images_version_5/image_220.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find m \\angle B G E.\nChoices:\nA:60\nB:120\nC:240\nD:360",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find m \\angle B G E.\nChoices:\nA:60\nB:120\nC:240\nD:360",
+        "question_for_eval": "Find m \\angle B G E.\nChoices:\nA:60\nB:120\nC:240\nD:360"
+    },
+    {
+        "sample_index": "2404",
+        "problem_index": "481",
+        "problem_version": "Vision Dominant",
+        "question": "Find the domain and range of the function f using interval notation.",
+        "image": "images_version_5/image_481.png",
+        "answer": "domain: [-4, 0) and range: (-3, 1]",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the domain and range of the function f using interval notation.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the domain and range of the function f using interval notation.",
+        "question_for_eval": "Find the domain and range of the function f using interval notation."
+    },
+    {
+        "sample_index": "2482",
+        "problem_index": "497",
+        "problem_version": "Text Lite",
+        "question": "Determine the function expression of f shown in the figure.\n",
+        "image": "images_version_1-4/image_497.png",
+        "answer": "$-\\frac{3}{2}x+3$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Expression"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Determine the function expression of f shown in the figure.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Determine the function expression of f shown in the figure.\n",
+        "question_for_eval": "Determine the function expression of f shown in the figure.\n"
+    },
+    {
+        "sample_index": "2755",
+        "problem_index": "551",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_551.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "Catalina modeled the relationship between the number of months $T$ since she opened the restaurant and its profit $P$ (in dollars, measured as income minus expenses) as\n$$\nP=80(T-4)^2-300 \\text {. }\n$$ She wanted to create a graph to show the restaurant's profits over the first year. Here is her work: What mistakes did Catalina make when drawing the graph?\nChoices:\nA:Inappropriate scale for $x$-axis\nB:Inappropriate scale for $y$-axis\nC:Wrong/missing label for $x$-axis\nD:Wrong/missing label for $y$-axis\nE:Catalina didn't make any mistake"
+    },
+    {
+        "sample_index": "1944",
+        "problem_index": "389",
+        "problem_version": "Vision Dominant",
+        "question": "Find the circumference of the circle shown, correct to two decimal places.",
+        "image": "images_version_5/image_389.png",
+        "answer": "$C=40.84 \\mathrm{~cm}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the circumference of the circle shown, correct to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the circumference of the circle shown, correct to two decimal places.",
+        "question_for_eval": "Find the circumference of the circle shown, correct to two decimal places."
+    },
+    {
+        "sample_index": "1535",
+        "problem_index": "307",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_307.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "Find m \\angle R C M.\nChoices:\nA:27\nB:43\nC:47\nD:67"
+    },
+    {
+        "sample_index": "3414",
+        "problem_index": "683",
+        "problem_version": "Vision Dominant",
+        "question": "Find the length of AF in terms of AB, BD and DF.",
+        "image": "images_version_5/image_683.png",
+        "answer": "\\sqrt{AB^2+BD^2+DF^2}",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the length of AF in terms of AB, BD and DF.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the length of AF in terms of AB, BD and DF.",
+        "question_for_eval": "Find the length of AF in terms of AB, BD and DF."
+    },
+    {
+        "sample_index": "3478",
+        "problem_index": "696",
+        "problem_version": "Vision Intensive",
+        "question": "Find the volume of the figure shown, correct to two decimal places. The height of both solid figures is 2 cm.",
+        "image": "images_version_1-4/image_696.png",
+        "answer": "Volume $=609.47 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the volume of the figure shown, correct to two decimal places. The height of both solid figures is 2 cm.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the volume of the figure shown, correct to two decimal places. The height of both solid figures is 2 cm.",
+        "question_for_eval": "Find the volume of the figure shown, correct to two decimal places. The height of both solid figures is 2 cm."
+    },
+    {
+        "sample_index": "3099",
+        "problem_index": "620",
+        "problem_version": "Vision Dominant",
+        "question": "What happens to the current as the resistance increases?\nChoices:\nA:The current increases.\nB:The current decreases.",
+        "image": "images_version_5/image_620.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: What happens to the current as the resistance increases?\nChoices:\nA:The current increases.\nB:The current decreases.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What happens to the current as the resistance increases?\nChoices:\nA:The current increases.\nB:The current decreases.",
+        "question_for_eval": "What happens to the current as the resistance increases?\nChoices:\nA:The current increases.\nB:The current decreases."
+    },
+    {
+        "sample_index": "29",
+        "problem_index": "6",
+        "problem_version": "Vision Dominant",
+        "question": "As shown in the figure, AB // CD, then the degree of angle 2 is ()\nChoices:\nA:50\u00b0\nB:120\u00b0\nC:130\u00b0\nD:150\u00b0",
+        "image": "images_version_5/image_6.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, AB // CD, then the degree of angle 2 is ()\nChoices:\nA:50\u00b0\nB:120\u00b0\nC:130\u00b0\nD:150\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, AB // CD, then the degree of angle 2 is ()\nChoices:\nA:50\u00b0\nB:120\u00b0\nC:130\u00b0\nD:150\u00b0",
+        "question_for_eval": "As shown in the figure, AB // CD, then the degree of angle 2 is ()\nChoices:\nA:50\u00b0\nB:120\u00b0\nC:130\u00b0\nD:150\u00b0"
+    },
+    {
+        "sample_index": "989",
+        "problem_index": "198",
+        "problem_version": "Vision Dominant",
+        "question": "There is an isosceles triangle. Find the area of the figure.\nChoices:\nA:30\nB:60\nC:120\nD:240",
+        "image": "images_version_5/image_198.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: There is an isosceles triangle. Find the area of the figure.\nChoices:\nA:30\nB:60\nC:120\nD:240",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: There is an isosceles triangle. Find the area of the figure.\nChoices:\nA:30\nB:60\nC:120\nD:240",
+        "question_for_eval": "There is an isosceles triangle. Find the area of the figure.\nChoices:\nA:30\nB:60\nC:120\nD:240"
+    },
+    {
+        "sample_index": "2743",
+        "problem_index": "549",
+        "problem_version": "Vision Intensive",
+        "question": "There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n",
+        "image": "images_version_1-4/image_549.png",
+        "answer": "12.5",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n",
+        "question_for_eval": "There is a function $h(t)$, where $t$ corresponds to the number of hours after 12:00 a.m. According to Takoda's research, approximately how much time passes between two consecutive high tides?\n"
+    },
+    {
+        "sample_index": "1091",
+        "problem_index": "219",
+        "problem_version": "Text Dominant",
+        "question": "Find A B if \\triangle A B C is an isosceles triangle with A B \\cong B C.\nChoices:\nA:3\nB:4\nC:7\nD:11",
+        "image": "images_version_1-4/image_219.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find A B if \\triangle A B C is an isosceles triangle with A B \\cong B C.\nChoices:\nA:3\nB:4\nC:7\nD:11",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find A B if \\triangle A B C is an isosceles triangle with A B \\cong B C.\nChoices:\nA:3\nB:4\nC:7\nD:11",
+        "question_for_eval": "Find A B if \\triangle A B C is an isosceles triangle with A B \\cong B C.\nChoices:\nA:3\nB:4\nC:7\nD:11"
+    },
+    {
+        "sample_index": "504",
+        "problem_index": "101",
+        "problem_version": "Vision Dominant",
+        "question": "As shown in the figure, then angle CDB = ()\nChoices:\nA:54\u00b0\nB:64\u00b0\nC:27\u00b0\nD:37\u00b0",
+        "image": "images_version_5/image_101.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, then angle CDB = ()\nChoices:\nA:54\u00b0\nB:64\u00b0\nC:27\u00b0\nD:37\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, then angle CDB = ()\nChoices:\nA:54\u00b0\nB:64\u00b0\nC:27\u00b0\nD:37\u00b0",
+        "question_for_eval": "As shown in the figure, then angle CDB = ()\nChoices:\nA:54\u00b0\nB:64\u00b0\nC:27\u00b0\nD:37\u00b0"
+    },
+    {
+        "sample_index": "1208",
+        "problem_index": "242",
+        "problem_version": "Vision Intensive",
+        "question": "Find m \\angle W.\nChoices:\nA:38\nB:38\nC:76\nD:152",
+        "image": "images_version_1-4/image_242.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find m \\angle W.\nChoices:\nA:38\nB:38\nC:76\nD:152",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find m \\angle W.\nChoices:\nA:38\nB:38\nC:76\nD:152",
+        "question_for_eval": "Find m \\angle W.\nChoices:\nA:38\nB:38\nC:76\nD:152"
+    },
+    {
+        "sample_index": "1109",
+        "problem_index": "222",
+        "problem_version": "Vision Dominant",
+        "question": "For the pair of similar figures, use the given areas to find x.\nChoices:\nA:1\nB:2\nC:8\nD:16",
+        "image": "images_version_5/image_222.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: For the pair of similar figures, use the given areas to find x.\nChoices:\nA:1\nB:2\nC:8\nD:16",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: For the pair of similar figures, use the given areas to find x.\nChoices:\nA:1\nB:2\nC:8\nD:16",
+        "question_for_eval": "For the pair of similar figures, use the given areas to find x.\nChoices:\nA:1\nB:2\nC:8\nD:16"
+    },
+    {
+        "sample_index": "2258",
+        "problem_index": "452",
+        "problem_version": "Vision Intensive",
+        "question": "Find the equation of the figure in point-slope form .\n",
+        "image": "images_version_1-4/image_452.png",
+        "answer": "$y-3=\\frac{2}{3}(x-8)$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the equation of the figure in point-slope form .\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the equation of the figure in point-slope form .\n",
+        "question_for_eval": "Find the equation of the figure in point-slope form .\n"
+    },
+    {
+        "sample_index": "2137",
+        "problem_index": "428",
+        "problem_version": "Text Lite",
+        "question": "Four small semicircles each with the same radius, and one large semicircle. The perimeter of the whole shape is 14\\pi  units.\nThe entire shape is to be enlarged by a factor of 5 to form a logo sticker on the window of a shop front. What area of the shop front window will the sticker take up?",
+        "image": "images_version_1-4/image_428.png",
+        "answer": "\\frac{1225\\pi }{2} \\text { units }^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Four small semicircles each with the same radius, and one large semicircle. The perimeter of the whole shape is 14\\pi  units.\nThe entire shape is to be enlarged by a factor of 5 to form a logo sticker on the window of a shop front. What area of the shop front window will the sticker take up?",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Four small semicircles each with the same radius, and one large semicircle. The perimeter of the whole shape is 14\\pi  units.\nThe entire shape is to be enlarged by a factor of 5 to form a logo sticker on the window of a shop front. What area of the shop front window will the sticker take up?",
+        "question_for_eval": "Four small semicircles each with the same radius, and one large semicircle. The perimeter of the whole shape is 14\\pi  units.\nThe entire shape is to be enlarged by a factor of 5 to form a logo sticker on the window of a shop front. What area of the shop front window will the sticker take up?"
+    }
+]

@@ -63,6 +63,10 @@ def load_tokenizer(model_args: "ModelArguments") -> "TokenizerModule":
     except Exception as e:
         raise OSError("Failed to load tokenizer.") from e
 
+    if getattr(config, "model_type", None) == "llava":
+        if "<image>" not in tokenizer.get_vocab():
+            tokenizer.add_special_tokens({"additional_special_tokens": ["<image>"]}, replace_additional_special_tokens=False)
+            model_args.resize_vocab = True
     patch_tokenizer(tokenizer, model_args)
     try:
         processor = AutoProcessor.from_pretrained(model_args.model_name_or_path, **init_kwargs)
@@ -70,6 +74,17 @@ def load_tokenizer(model_args: "ModelArguments") -> "TokenizerModule":
     except Exception as e:
         logger.info(f"Processor was not found: {e}.")
         processor = None
+        if getattr(config, "model_type", None) == "llava":
+            try:
+                from transformers import CLIPImageProcessor, LlavaProcessor
+                vision_tower = getattr(config, "mm_vision_tower", None) or "openai/clip-vit-large-patch14-336"
+                image_processor = CLIPImageProcessor.from_pretrained(vision_tower, **init_kwargs)
+                processor = LlavaProcessor(image_processor=image_processor, tokenizer=tokenizer)
+                patch_processor(processor, config, tokenizer, model_args)
+                logger.info("Constructed LlavaProcessor from CLIP image processor and tokenizer.")
+            except Exception as vision_e:
+                logger.warning(f"Failed to build LlavaProcessor fallback: {vision_e}")
+                processor = None
     if processor is not None and "Processor" not in processor.__class__.__name__:
         processor = None
 
@@ -103,6 +118,10 @@ def load_model(
     if model is None and not lazy_load:
         init_kwargs["config"] = config
         init_kwargs["pretrained_model_name_or_path"] = model_args.model_name_or_path
+
+        if model_args.max_memory:
+            init_kwargs["max_memory"] = model_args.max_memory
+            logger.info_rank0(f"Applying max_memory hint: {model_args.max_memory}")
 
         if model_args.mixture_of_depths == "load":
             model = load_mod_pretrained_model(**init_kwargs)

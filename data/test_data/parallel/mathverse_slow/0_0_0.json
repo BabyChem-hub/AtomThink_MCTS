@@ -1,0 +1,308 @@
+[
+    {
+        "sample_index": "3919",
+        "problem_index": "784",
+        "problem_version": "Vision Dominant",
+        "question": "If the circumference of the large circle is 36 and the radius of the small circle is half of the radius of the large circle, what is the length of the darkened arc?\nChoices:\nA.10\nB.8\nC.6\nD.4\nE.2\n",
+        "image": "images_version_5/image_784.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: If the circumference of the large circle is 36 and the radius of the small circle is half of the radius of the large circle, what is the length of the darkened arc?\nChoices:\nA.10\nB.8\nC.6\nD.4\nE.2\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: If the circumference of the large circle is 36 and the radius of the small circle is half of the radius of the large circle, what is the length of the darkened arc?\nChoices:\nA.10\nB.8\nC.6\nD.4\nE.2\n",
+        "question_for_eval": "If the circumference of the large circle is 36 and the radius of the small circle is half of the radius of the large circle, what is the length of the darkened arc?\nChoices:\nA.10\nB.8\nC.6\nD.4\nE.2\n"
+    },
+    {
+        "sample_index": "1911",
+        "problem_index": "383",
+        "problem_version": "Text Dominant",
+        "question": "In this right-angled triangle, one of the acute angles measures 60^\\circ, one leg measuring \\sqrt{3}. Find the length of side x, leaving your answer as an exact value.",
+        "image": "images_version_1-4/image_383.png",
+        "answer": "2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: In this right-angled triangle, one of the acute angles measures 60^\\circ, one leg measuring \\sqrt{3}. Find the length of side x, leaving your answer as an exact value.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: In this right-angled triangle, one of the acute angles measures 60^\\circ, one leg measuring \\sqrt{3}. Find the length of side x, leaving your answer as an exact value.",
+        "question_for_eval": "In this right-angled triangle, one of the acute angles measures 60^\\circ, one leg measuring \\sqrt{3}. Find the length of side x, leaving your answer as an exact value."
+    },
+    {
+        "sample_index": "1148",
+        "problem_index": "230",
+        "problem_version": "Vision Intensive",
+        "question": "Find m \\angle 2 if m \\widehat B C = 30 and m \\widehat A D = 20.\nChoices:\nA:20\nB:25\nC:30\nD:155",
+        "image": "images_version_1-4/image_230.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find m \\angle 2 if m \\widehat B C = 30 and m \\widehat A D = 20.\nChoices:\nA:20\nB:25\nC:30\nD:155",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find m \\angle 2 if m \\widehat B C = 30 and m \\widehat A D = 20.\nChoices:\nA:20\nB:25\nC:30\nD:155",
+        "question_for_eval": "Find m \\angle 2 if m \\widehat B C = 30 and m \\widehat A D = 20.\nChoices:\nA:20\nB:25\nC:30\nD:155"
+    },
+    {
+        "sample_index": "243",
+        "problem_index": "49",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, angle CAD = 35.0, angle AED = 115.0, then the degree of angle B is ()\nChoices:\nA:50\u00b0\nB:75\u00b0\nC:80\u00b0\nD:100\u00b0",
+        "image": "images_version_1-4/image_49.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, angle CAD = 35.0, angle AED = 115.0, then the degree of angle B is ()\nChoices:\nA:50\u00b0\nB:75\u00b0\nC:80\u00b0\nD:100\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, angle CAD = 35.0, angle AED = 115.0, then the degree of angle B is ()\nChoices:\nA:50\u00b0\nB:75\u00b0\nC:80\u00b0\nD:100\u00b0",
+        "question_for_eval": "As shown in the figure, angle CAD = 35.0, angle AED = 115.0, then the degree of angle B is ()\nChoices:\nA:50\u00b0\nB:75\u00b0\nC:80\u00b0\nD:100\u00b0"
+    },
+    {
+        "sample_index": "2230",
+        "problem_index": "446",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_446.png",
+        "answer": "$-\\frac{21}{29}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\cos a$."
+    },
+    {
+        "sample_index": "1867",
+        "problem_index": "374",
+        "problem_version": "Text Lite",
+        "question": "Consider the adjacent figure:\n\nSolve for the exact value of x.",
+        "image": "images_version_1-4/image_374.png",
+        "answer": "\\frac{\\sqrt{30}}{2}",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Consider the adjacent figure:\n\nSolve for the exact value of x.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Consider the adjacent figure:\n\nSolve for the exact value of x.",
+        "question_for_eval": "Consider the adjacent figure:\n\nSolve for the exact value of x."
+    },
+    {
+        "sample_index": "3335",
+        "problem_index": "667",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_667.png",
+        "answer": "Area $=113.097$ units $^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "What is the area of the circular base of the hemisphere?\n\nRound your answer to three decimal places."
+    },
+    {
+        "sample_index": "531",
+        "problem_index": "107",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, AB is the diameter of circle O, and points C and D are on circle O. If angle BOD = 130.0, then the degree of angle ACD is ()\nChoices:\nA:50\u00b0\nB:30\u00b0\nC:25\u00b0\nD:20\u00b0",
+        "image": "images_version_1-4/image_107.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, AB is the diameter of circle O, and points C and D are on circle O. If angle BOD = 130.0, then the degree of angle ACD is ()\nChoices:\nA:50\u00b0\nB:30\u00b0\nC:25\u00b0\nD:20\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, AB is the diameter of circle O, and points C and D are on circle O. If angle BOD = 130.0, then the degree of angle ACD is ()\nChoices:\nA:50\u00b0\nB:30\u00b0\nC:25\u00b0\nD:20\u00b0",
+        "question_for_eval": "As shown in the figure, AB is the diameter of circle O, and points C and D are on circle O. If angle BOD = 130.0, then the degree of angle ACD is ()\nChoices:\nA:50\u00b0\nB:30\u00b0\nC:25\u00b0\nD:20\u00b0"
+    },
+    {
+        "sample_index": "1393",
+        "problem_index": "279",
+        "problem_version": "Vision Intensive",
+        "question": "\\angle R = \\angle T = x degrees. Find m \\angle R.\nChoices:\nA:58\nB:60\nC:122\nD:124",
+        "image": "images_version_1-4/image_279.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: \\angle R = \\angle T = x degrees. Find m \\angle R.\nChoices:\nA:58\nB:60\nC:122\nD:124",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \\angle R = \\angle T = x degrees. Find m \\angle R.\nChoices:\nA:58\nB:60\nC:122\nD:124",
+        "question_for_eval": "\\angle R = \\angle T = x degrees. Find m \\angle R.\nChoices:\nA:58\nB:60\nC:122\nD:124"
+    },
+    {
+        "sample_index": "452",
+        "problem_index": "91",
+        "problem_version": "Text Lite",
+        "question": "As shown in the figure, angle BAC = 30.0, arc AD = arc CD. Then angle DAC is equal to ()\nChoices:\nA:70\u00b0\nB:45\u00b0\nC:30\u00b0\nD:25\u00b0",
+        "image": "images_version_1-4/image_91.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, angle BAC = 30.0, arc AD = arc CD. Then angle DAC is equal to ()\nChoices:\nA:70\u00b0\nB:45\u00b0\nC:30\u00b0\nD:25\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, angle BAC = 30.0, arc AD = arc CD. Then angle DAC is equal to ()\nChoices:\nA:70\u00b0\nB:45\u00b0\nC:30\u00b0\nD:25\u00b0",
+        "question_for_eval": "As shown in the figure, angle BAC = 30.0, arc AD = arc CD. Then angle DAC is equal to ()\nChoices:\nA:70\u00b0\nB:45\u00b0\nC:30\u00b0\nD:25\u00b0"
+    },
+    {
+        "sample_index": "3536",
+        "problem_index": "708",
+        "problem_version": "Text Dominant",
+        "question": "Find the surface area of the figure shown. The two marked edges have the same length. The top rectangular prism has sides length of 12cm, 1cm and 1cm. The bottom rectangular prism has sides length of 7cm, 4cm and 1cm.",
+        "image": "images_version_1-4/image_708.png",
+        "answer": "120 \\mathrm{cm}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the surface area of the figure shown. The two marked edges have the same length. The top rectangular prism has sides length of 12cm, 1cm and 1cm. The bottom rectangular prism has sides length of 7cm, 4cm and 1cm.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the surface area of the figure shown. The two marked edges have the same length. The top rectangular prism has sides length of 12cm, 1cm and 1cm. The bottom rectangular prism has sides length of 7cm, 4cm and 1cm.",
+        "question_for_eval": "Find the surface area of the figure shown. The two marked edges have the same length. The top rectangular prism has sides length of 12cm, 1cm and 1cm. The bottom rectangular prism has sides length of 7cm, 4cm and 1cm."
+    },
+    {
+        "sample_index": "2640",
+        "problem_index": "528",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_528.png",
+        "answer": "E",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Coordinate"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "Which of the coordinates is equal to $\\cos (\\pi)$ ?\nChoices:\nA:$x$-coordinate of point $A$\nB:$y$-coordinate of point $A$\nC:$x$-coordinate of point $B$\nD:$y$-coordinate of point $B$\nE:$x$-coordinate of point $C$\nF:$y$-coordinate of point $C$"
+    },
+    {
+        "sample_index": "1544",
+        "problem_index": "309",
+        "problem_version": "Vision Dominant",
+        "question": "Find x for the equilateral triangle R S T.\nChoices:\nA:3\nB:6\nC:9\nD:12",
+        "image": "images_version_5/image_309.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find x for the equilateral triangle R S T.\nChoices:\nA:3\nB:6\nC:9\nD:12",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find x for the equilateral triangle R S T.\nChoices:\nA:3\nB:6\nC:9\nD:12",
+        "question_for_eval": "Find x for the equilateral triangle R S T.\nChoices:\nA:3\nB:6\nC:9\nD:12"
+    },
+    {
+        "sample_index": "839",
+        "problem_index": "168",
+        "problem_version": "Vision Dominant",
+        "question": "As shown in the figure, then the value of tan\u03b1 is ()\nChoices:\nA:\\frac{2}{3}\nB:\\frac{3}{2}\nC:\\frac{2\u221a{13}}{13}\nD:\\frac{3\u221a{13}}{13}",
+        "image": "images_version_5/image_168.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, then the value of tan\u03b1 is ()\nChoices:\nA:\\frac{2}{3}\nB:\\frac{3}{2}\nC:\\frac{2\u221a{13}}{13}\nD:\\frac{3\u221a{13}}{13}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, then the value of tan\u03b1 is ()\nChoices:\nA:\\frac{2}{3}\nB:\\frac{3}{2}\nC:\\frac{2\u221a{13}}{13}\nD:\\frac{3\u221a{13}}{13}",
+        "question_for_eval": "As shown in the figure, then the value of tan\u03b1 is ()\nChoices:\nA:\\frac{2}{3}\nB:\\frac{3}{2}\nC:\\frac{2\u221a{13}}{13}\nD:\\frac{3\u221a{13}}{13}"
+    },
+    {
+        "sample_index": "3093",
+        "problem_index": "619",
+        "problem_version": "Vision Intensive",
+        "question": "State the diameter.\n",
+        "image": "images_version_1-4/image_619.png",
+        "answer": "8",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: State the diameter.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: State the diameter.\n",
+        "question_for_eval": "State the diameter.\n"
+    },
+    {
+        "sample_index": "492",
+        "problem_index": "99",
+        "problem_version": "Text Lite",
+        "question": "As shown in the figure, angle ADC = 26.0, then the degree of angle CAB is ()\nChoices:\nA:26\u00b0\nB:74\u00b0\nC:64\u00b0\nD:54\u00b0\n102",
+        "image": "images_version_1-4/image_99.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, angle ADC = 26.0, then the degree of angle CAB is ()\nChoices:\nA:26\u00b0\nB:74\u00b0\nC:64\u00b0\nD:54\u00b0\n102",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, angle ADC = 26.0, then the degree of angle CAB is ()\nChoices:\nA:26\u00b0\nB:74\u00b0\nC:64\u00b0\nD:54\u00b0\n102",
+        "question_for_eval": "As shown in the figure, angle ADC = 26.0, then the degree of angle CAB is ()\nChoices:\nA:26\u00b0\nB:74\u00b0\nC:64\u00b0\nD:54\u00b0\n102"
+    },
+    {
+        "sample_index": "1609",
+        "problem_index": "322",
+        "problem_version": "Vision Dominant",
+        "question": "NQ is the angular bisector of angle MNP. Find Q M.\nChoices:\nA:4\nB:8\nC:12\nD:16",
+        "image": "images_version_5/image_322.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: NQ is the angular bisector of angle MNP. Find Q M.\nChoices:\nA:4\nB:8\nC:12\nD:16",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: NQ is the angular bisector of angle MNP. Find Q M.\nChoices:\nA:4\nB:8\nC:12\nD:16",
+        "question_for_eval": "NQ is the angular bisector of angle MNP. Find Q M.\nChoices:\nA:4\nB:8\nC:12\nD:16"
+    }
+]

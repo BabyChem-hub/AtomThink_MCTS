@@ -1,0 +1,452 @@
+[
+    {
+        "sample_index": "1220",
+        "problem_index": "244",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_244.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "In the figure, EC and AB are parallel. Find the measure of \\angle 5.\nChoices:\nA:43\nB:47\nC:58\nD:73"
+    },
+    {
+        "sample_index": "858",
+        "problem_index": "172",
+        "problem_version": "Vision Intensive",
+        "question": "As shown in the figure, If EF = 2.0, BC = 5.0, CD = 3.0, then tanC is equal to ()\nChoices:\nA:\\frac{3}{4}\nB:\\frac{4}{3}\nC:\\frac{3}{5}\nD:\\frac{4}{5}",
+        "image": "images_version_1-4/image_172.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, If EF = 2.0, BC = 5.0, CD = 3.0, then tanC is equal to ()\nChoices:\nA:\\frac{3}{4}\nB:\\frac{4}{3}\nC:\\frac{3}{5}\nD:\\frac{4}{5}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, If EF = 2.0, BC = 5.0, CD = 3.0, then tanC is equal to ()\nChoices:\nA:\\frac{3}{4}\nB:\\frac{4}{3}\nC:\\frac{3}{5}\nD:\\frac{4}{5}",
+        "question_for_eval": "As shown in the figure, If EF = 2.0, BC = 5.0, CD = 3.0, then tanC is equal to ()\nChoices:\nA:\\frac{3}{4}\nB:\\frac{4}{3}\nC:\\frac{3}{5}\nD:\\frac{4}{5}"
+    },
+    {
+        "sample_index": "3202",
+        "problem_index": "641",
+        "problem_version": "Text Lite",
+        "question": "The figure shows a cylinder with radius of 6 centimeters.\n\nFind the volume of the cylinder, rounding your answer to two decimal places.",
+        "image": "images_version_1-4/image_641.png",
+        "answer": "Volume $=904.78 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The figure shows a cylinder with radius of 6 centimeters.\n\nFind the volume of the cylinder, rounding your answer to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The figure shows a cylinder with radius of 6 centimeters.\n\nFind the volume of the cylinder, rounding your answer to two decimal places.",
+        "question_for_eval": "The figure shows a cylinder with radius of 6 centimeters.\n\nFind the volume of the cylinder, rounding your answer to two decimal places."
+    },
+    {
+        "sample_index": "2995",
+        "problem_index": "599",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_599.png",
+        "answer": "$y_2=(x+2)^3=y_1(x+2)$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Expression"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "The graph shows $y_1$ and a vertical or horizontal translation $y_2$. Write an equation for $y_2$ as shown in the graph."
+    },
+    {
+        "sample_index": "1036",
+        "problem_index": "208",
+        "problem_version": "Text Dominant",
+        "question": "J K L M is a rectangle. M L P R is a rhombus. M L equals M R. \\angle J M K \\cong \\angle R M P, m \\angle J M K = 55, and m \\angle M R P = 70. Find m \\angle K M L.\nChoices:\nA:35\nB:70\nC:110\nD:140",
+        "image": "images_version_1-4/image_208.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: J K L M is a rectangle. M L P R is a rhombus. M L equals M R. \\angle J M K \\cong \\angle R M P, m \\angle J M K = 55, and m \\angle M R P = 70. Find m \\angle K M L.\nChoices:\nA:35\nB:70\nC:110\nD:140",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: J K L M is a rectangle. M L P R is a rhombus. M L equals M R. \\angle J M K \\cong \\angle R M P, m \\angle J M K = 55, and m \\angle M R P = 70. Find m \\angle K M L.\nChoices:\nA:35\nB:70\nC:110\nD:140",
+        "question_for_eval": "J K L M is a rectangle. M L P R is a rhombus. M L equals M R. \\angle J M K \\cong \\angle R M P, m \\angle J M K = 55, and m \\angle M R P = 70. Find m \\angle K M L.\nChoices:\nA:35\nB:70\nC:110\nD:140"
+    },
+    {
+        "sample_index": "1894",
+        "problem_index": "379",
+        "problem_version": "Vision Dominant",
+        "question": "Find t.",
+        "image": "images_version_5/image_379.png",
+        "answer": "4+4\\sqrt{3}",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find t.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find t.",
+        "question_for_eval": "Find t."
+    },
+    {
+        "sample_index": "2863",
+        "problem_index": "573",
+        "problem_version": "Vision Intensive",
+        "question": "Write the equation for g(x).\n",
+        "image": "images_version_1-4/image_573.png",
+        "answer": "g(x)=(x+2)^2+1",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Expression"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Write the equation for g(x).\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Write the equation for g(x).\n",
+        "question_for_eval": "Write the equation for g(x).\n"
+    },
+    {
+        "sample_index": "3266",
+        "problem_index": "654",
+        "problem_version": "Text Dominant",
+        "question": "Find the volume of the following hemisphere. The radius is 25.36 centimeters.\n\nRound your answer to three decimal places.",
+        "image": "images_version_1-4/image_654.png",
+        "answer": "Volume $=34159.095 \\mathrm{~cm}^{3}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the volume of the following hemisphere. The radius is 25.36 centimeters.\n\nRound your answer to three decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the volume of the following hemisphere. The radius is 25.36 centimeters.\n\nRound your answer to three decimal places.",
+        "question_for_eval": "Find the volume of the following hemisphere. The radius is 25.36 centimeters.\n\nRound your answer to three decimal places."
+    },
+    {
+        "sample_index": "1432",
+        "problem_index": "287",
+        "problem_version": "Text Lite",
+        "question": "Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79",
+        "image": "images_version_1-4/image_287.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79",
+        "question_for_eval": "Find m \\angle 1.\nChoices:\nA:21\nB:27\nC:52\nD:79"
+    },
+    {
+        "sample_index": "2675",
+        "problem_index": "535",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_535.png",
+        "answer": "4.6",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Below is the graph of a trigonometric function. What is the amplitude of the function?"
+    },
+    {
+        "sample_index": "2249",
+        "problem_index": "450",
+        "problem_version": "Vision Dominant",
+        "question": "Find the equation of the figure.\nUse exact numbers.\ny = _ x + _",
+        "image": "images_version_5/image_450.png",
+        "answer": "y=-2 x+5",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the equation of the figure.\nUse exact numbers.\ny = _ x + _",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the equation of the figure.\nUse exact numbers.\ny = _ x + _",
+        "question_for_eval": "Find the equation of the figure.\nUse exact numbers.\ny = _ x + _"
+    },
+    {
+        "sample_index": "3226",
+        "problem_index": "646",
+        "problem_version": "Text Dominant",
+        "question": "Find the volume of the cone pictured here. The perpendicular height is 12.5 centimeters and radius is 4.1 centimeters.\n\n(Give your answer correct to 1 decimal place.)",
+        "image": "images_version_1-4/image_646.png",
+        "answer": "220.0 \\mathrm{~cm}^{3}",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Volume"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the volume of the cone pictured here. The perpendicular height is 12.5 centimeters and radius is 4.1 centimeters.\n\n(Give your answer correct to 1 decimal place.)",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the volume of the cone pictured here. The perpendicular height is 12.5 centimeters and radius is 4.1 centimeters.\n\n(Give your answer correct to 1 decimal place.)",
+        "question_for_eval": "Find the volume of the cone pictured here. The perpendicular height is 12.5 centimeters and radius is 4.1 centimeters.\n\n(Give your answer correct to 1 decimal place.)"
+    },
+    {
+        "sample_index": "3025",
+        "problem_index": "605",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_605.png",
+        "answer": "1.6",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "The side profile of a bridge is overlapped with the coordinate axes such that $(x, y)$ represents a point on the arc that is $x$ meters horizontally from one end of the bridge and $y$ meters vertically above the road.\n\nPedestrians are able to climb the full arch of the bridge. Find the average steepness of the climb over the interval $[0,20]$."
+    },
+    {
+        "sample_index": "2502",
+        "problem_index": "501",
+        "problem_version": "Text Lite",
+        "question": "Determine the intervals on which the functions are increasing, decreasing, or constant.\n",
+        "image": "images_version_1-4/image_501.png",
+        "answer": "\\text { increasing } \\quad(-3,1) ; \\quad \\text { constant }(-\\infty,-3) \\cup(1, \\infty)",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Determine the intervals on which the functions are increasing, decreasing, or constant.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Determine the intervals on which the functions are increasing, decreasing, or constant.\n",
+        "question_for_eval": "Determine the intervals on which the functions are increasing, decreasing, or constant.\n"
+    },
+    {
+        "sample_index": "2116",
+        "problem_index": "424",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure above, a triangle has an angle of 50\u00b0 and two sides of 12m and 13.1m. Calculate the area of the following triangle.\n\nRound your answer to two decimal places.",
+        "image": "images_version_1-4/image_424.png",
+        "answer": "60.21 \\mathrm{m}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: As shown in the figure above, a triangle has an angle of 50\u00b0 and two sides of 12m and 13.1m. Calculate the area of the following triangle.\n\nRound your answer to two decimal places.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: As shown in the figure above, a triangle has an angle of 50\u00b0 and two sides of 12m and 13.1m. Calculate the area of the following triangle.\n\nRound your answer to two decimal places.",
+        "question_for_eval": "As shown in the figure above, a triangle has an angle of 50\u00b0 and two sides of 12m and 13.1m. Calculate the area of the following triangle.\n\nRound your answer to two decimal places."
+    },
+    {
+        "sample_index": "2191",
+        "problem_index": "439",
+        "problem_version": "Text Dominant",
+        "question": "Point $A$ is on the following unit circle with radius 1, and forms a red right triangle with an angle of $\\frac{\\pi}{4}$. What are the coordinates of point $A$ ?\nEnter an exact value or round to the nearest hundredth.\n",
+        "image": "images_version_1-4/image_439.png",
+        "answer": "$\\left(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right)$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Point $A$ is on the following unit circle with radius 1, and forms a red right triangle with an angle of $\\frac{\\pi}{4}$. What are the coordinates of point $A$ ?\nEnter an exact value or round to the nearest hundredth.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Point $A$ is on the following unit circle with radius 1, and forms a red right triangle with an angle of $\\frac{\\pi}{4}$. What are the coordinates of point $A$ ?\nEnter an exact value or round to the nearest hundredth.\n",
+        "question_for_eval": "Point $A$ is on the following unit circle with radius 1, and forms a red right triangle with an angle of $\\frac{\\pi}{4}$. What are the coordinates of point $A$ ?\nEnter an exact value or round to the nearest hundredth.\n"
+    },
+    {
+        "sample_index": "711",
+        "problem_index": "143",
+        "problem_version": "Text Dominant",
+        "question": "As shown in the figure, a square DEFG model should be cut on a piece of triangle ABC paper. Among them, G and F are on BC, D and E are on AB and AC respectively, AH perpendicular  BC and it intersects DE at M, if BC = 12.0, AH = 8.0, then the edge length of the square DEFG is ()\nChoices:\nA:\\frac{24}{5}cm\nB:4cm\nC:\\frac{24}{7}cm\nD:5cm",
+        "image": "images_version_1-4/image_143.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, a square DEFG model should be cut on a piece of triangle ABC paper. Among them, G and F are on BC, D and E are on AB and AC respectively, AH perpendicular  BC and it intersects DE at M, if BC = 12.0, AH = 8.0, then the edge length of the square DEFG is ()\nChoices:\nA:\\frac{24}{5}cm\nB:4cm\nC:\\frac{24}{7}cm\nD:5cm",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, a square DEFG model should be cut on a piece of triangle ABC paper. Among them, G and F are on BC, D and E are on AB and AC respectively, AH perpendicular  BC and it intersects DE at M, if BC = 12.0, AH = 8.0, then the edge length of the square DEFG is ()\nChoices:\nA:\\frac{24}{5}cm\nB:4cm\nC:\\frac{24}{7}cm\nD:5cm",
+        "question_for_eval": "As shown in the figure, a square DEFG model should be cut on a piece of triangle ABC paper. Among them, G and F are on BC, D and E are on AB and AC respectively, AH perpendicular  BC and it intersects DE at M, if BC = 12.0, AH = 8.0, then the edge length of the square DEFG is ()\nChoices:\nA:\\frac{24}{5}cm\nB:4cm\nC:\\frac{24}{7}cm\nD:5cm"
+    },
+    {
+        "sample_index": "2224",
+        "problem_index": "445",
+        "problem_version": "Vision Dominant",
+        "question": "The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$.",
+        "image": "images_version_5/image_445.png",
+        "answer": "$\\frac{20}{29}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$.",
+        "question_for_eval": "The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at P.\n\nFind the value of $\\sin a$."
+    },
+    {
+        "sample_index": "2455",
+        "problem_index": "491",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_491.png",
+        "answer": "\\text { Local minimum at }(-2,-2) \\text {, decreasing on }(-3,-2) \\text {, increasing on }(-2, \\infty)",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Estimate the point(s) at which the graph of odd function f  has a local maximum or a local minimum."
+    },
+    {
+        "sample_index": "1104",
+        "problem_index": "221",
+        "problem_version": "Vision Dominant",
+        "question": "Find x. Round the side measure to the nearest tenth.\nChoices:\nA:69.0\nB:69.8\nC:76.4\nD:77.2",
+        "image": "images_version_5/image_221.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Find x. Round the side measure to the nearest tenth.\nChoices:\nA:69.0\nB:69.8\nC:76.4\nD:77.2",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Find x. Round the side measure to the nearest tenth.\nChoices:\nA:69.0\nB:69.8\nC:76.4\nD:77.2",
+        "question_for_eval": "Find x. Round the side measure to the nearest tenth.\nChoices:\nA:69.0\nB:69.8\nC:76.4\nD:77.2"
+    },
+    {
+        "sample_index": "525",
+        "problem_index": "105",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_105.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure, Given that AB = 2 DE, then the degree of angle ABC is ()\nChoices:\nA:32\u00b0\nB:24\u00b0\nC:16\u00b0\nD:48\u00b0"
+    },
+    {
+        "sample_index": "3026",
+        "problem_index": "606",
+        "problem_version": "Text Dominant",
+        "question": "The graph shows the cost, in dollars, of a phone call for different call durations. The x-axis represents call length (minutes), and the y-axis represents call cost.\n\nWhat is the average rate of change?\n",
+        "image": "images_version_1-4/image_606.png",
+        "answer": "$\\frac{9}{10}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The graph shows the cost, in dollars, of a phone call for different call durations. The x-axis represents call length (minutes), and the y-axis represents call cost.\n\nWhat is the average rate of change?\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The graph shows the cost, in dollars, of a phone call for different call durations. The x-axis represents call length (minutes), and the y-axis represents call cost.\n\nWhat is the average rate of change?\n",
+        "question_for_eval": "The graph shows the cost, in dollars, of a phone call for different call durations. The x-axis represents call length (minutes), and the y-axis represents call cost.\n\nWhat is the average rate of change?\n"
+    },
+    {
+        "sample_index": "1466",
+        "problem_index": "294",
+        "problem_version": "Text Dominant",
+        "question": "In parallelogram J K L M, diagonals J L and K M intersect at point R, and ML is 45, KL is 21. Find m \\angle K J L if J K = 2 b + 3 and J M = 3 a.\nChoices:\nA:30\nB:70\nC:80\nD:100",
+        "image": "images_version_1-4/image_294.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In parallelogram J K L M, diagonals J L and K M intersect at point R, and ML is 45, KL is 21. Find m \\angle K J L if J K = 2 b + 3 and J M = 3 a.\nChoices:\nA:30\nB:70\nC:80\nD:100",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In parallelogram J K L M, diagonals J L and K M intersect at point R, and ML is 45, KL is 21. Find m \\angle K J L if J K = 2 b + 3 and J M = 3 a.\nChoices:\nA:30\nB:70\nC:80\nD:100",
+        "question_for_eval": "In parallelogram J K L M, diagonals J L and K M intersect at point R, and ML is 45, KL is 21. Find m \\angle K J L if J K = 2 b + 3 and J M = 3 a.\nChoices:\nA:30\nB:70\nC:80\nD:100"
+    },
+    {
+        "sample_index": "1331",
+        "problem_index": "267",
+        "problem_version": "Text Dominant",
+        "question": "Point A, B, and C are on the circle. The radius angle of A C is 122 degrees. Find m \\angle B.\nChoices:\nA:29\nB:58\nC:61\nD:122",
+        "image": "images_version_1-4/image_267.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: Point A, B, and C are on the circle. The radius angle of A C is 122 degrees. Find m \\angle B.\nChoices:\nA:29\nB:58\nC:61\nD:122",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Point A, B, and C are on the circle. The radius angle of A C is 122 degrees. Find m \\angle B.\nChoices:\nA:29\nB:58\nC:61\nD:122",
+        "question_for_eval": "Point A, B, and C are on the circle. The radius angle of A C is 122 degrees. Find m \\angle B.\nChoices:\nA:29\nB:58\nC:61\nD:122"
+    },
+    {
+        "sample_index": "710",
+        "problem_index": "142",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_142.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "As shown in the figure: then the length of the distance from E to the ground EF is ()\nChoices:\nA:2\nB:2.2\nC:2.4\nD:2.5"
+    }
+]

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/llamafactory/__init__.py
+src/llamafactory.egg-info/PKG-INFO
+src/llamafactory.egg-info/SOURCES.txt
+src/llamafactory.egg-info/dependency_links.txt
+src/llamafactory.egg-info/top_level.txt

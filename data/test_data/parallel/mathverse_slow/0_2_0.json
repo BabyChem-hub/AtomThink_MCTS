@@ -1,0 +1,308 @@
+[
+    {
+        "sample_index": "2080",
+        "problem_index": "416",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_416.png",
+        "answer": "Area of sector $=6 \\pi \\mathrm{cm}^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Determine the exact area of sector $OJK$."
+    },
+    {
+        "sample_index": "1598",
+        "problem_index": "320",
+        "problem_version": "Vision Intensive",
+        "question": "The figure shows a quadrilateral ABCD, with S on AC and T on BD. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9",
+        "image": "images_version_1-4/image_320.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: The figure shows a quadrilateral ABCD, with S on AC and T on BD. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: The figure shows a quadrilateral ABCD, with S on AC and T on BD. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9",
+        "question_for_eval": "The figure shows a quadrilateral ABCD, with S on AC and T on BD. If A B = x + 4, C D = 3 x + 2, and S T = 9, find A B.\nChoices:\nA:3\nB:5\nC:7\nD:9"
+    },
+    {
+        "sample_index": "844",
+        "problem_index": "169",
+        "problem_version": "Vision Dominant",
+        "question": "As shown in the figure, then the length of BC is ()\nChoices:\nA:2\nB:8\nC:2\u221a{5}\nD:4\u221a{5}",
+        "image": "images_version_5/image_169.png",
+        "answer": "A",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, then the length of BC is ()\nChoices:\nA:2\nB:8\nC:2\u221a{5}\nD:4\u221a{5}",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, then the length of BC is ()\nChoices:\nA:2\nB:8\nC:2\u221a{5}\nD:4\u221a{5}",
+        "question_for_eval": "As shown in the figure, then the length of BC is ()\nChoices:\nA:2\nB:8\nC:2\u221a{5}\nD:4\u221a{5}"
+    },
+    {
+        "sample_index": "1876",
+        "problem_index": "376",
+        "problem_version": "Text Dominant",
+        "question": "In this right-angled triangle, one of the acute angles measures 45^\\circ, one leg measuring 4\\sqrt{3}. Consider the adjacent figure:Solve for the exact value of y.",
+        "image": "images_version_1-4/image_376.png",
+        "answer": "4\\sqrt{3}",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: In this right-angled triangle, one of the acute angles measures 45^\\circ, one leg measuring 4\\sqrt{3}. Consider the adjacent figure:Solve for the exact value of y.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: In this right-angled triangle, one of the acute angles measures 45^\\circ, one leg measuring 4\\sqrt{3}. Consider the adjacent figure:Solve for the exact value of y.",
+        "question_for_eval": "In this right-angled triangle, one of the acute angles measures 45^\\circ, one leg measuring 4\\sqrt{3}. Consider the adjacent figure:Solve for the exact value of y."
+    },
+    {
+        "sample_index": "1914",
+        "problem_index": "383",
+        "problem_version": "Vision Dominant",
+        "question": "Find the length of side x, leaving your answer as an exact value.",
+        "image": "images_version_5/image_383.png",
+        "answer": "2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the length of side x, leaving your answer as an exact value.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the length of side x, leaving your answer as an exact value.",
+        "question_for_eval": "Find the length of side x, leaving your answer as an exact value."
+    },
+    {
+        "sample_index": "2677",
+        "problem_index": "536",
+        "problem_version": "Text Lite",
+        "question": "Below is the graph of a trigonometric function. What is the amplitude of the function?\n",
+        "image": "images_version_1-4/image_536.png",
+        "answer": "5.3",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Functions_collected",
+            "subject": "Functions",
+            "subfield": "Property"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Below is the graph of a trigonometric function. What is the amplitude of the function?\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Below is the graph of a trigonometric function. What is the amplitude of the function?\n",
+        "question_for_eval": "Below is the graph of a trigonometric function. What is the amplitude of the function?\n"
+    },
+    {
+        "sample_index": "3360",
+        "problem_index": "672",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_672.png",
+        "answer": "Surface Area $=235.87 \\mathrm{~cm}^{2}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the final value, e.g., 1, 2.5, 300.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.",
+        "question_for_eval": "Find the surface area of the composite figure shown, consisting of a cone and a hemisphere joined at their bases.\n\nRound your answer to two decimal places."
+    },
+    {
+        "sample_index": "1249",
+        "problem_index": "250",
+        "problem_version": "Vision Dominant",
+        "question": "\\angle J M K \\cong \\angle R M P. Find m \\angle K L P.\nChoices:\nA:20\nB:110\nC:140\nD:160",
+        "image": "images_version_5/image_250.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: \\angle J M K \\cong \\angle R M P. Find m \\angle K L P.\nChoices:\nA:20\nB:110\nC:140\nD:160",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \\angle J M K \\cong \\angle R M P. Find m \\angle K L P.\nChoices:\nA:20\nB:110\nC:140\nD:160",
+        "question_for_eval": "\\angle J M K \\cong \\angle R M P. Find m \\angle K L P.\nChoices:\nA:20\nB:110\nC:140\nD:160"
+    },
+    {
+        "sample_index": "1732",
+        "problem_index": "347",
+        "problem_version": "Text Lite",
+        "question": "Find the value of H.\n\nRound your answer to the nearest whole number.",
+        "image": "images_version_1-4/image_347.png",
+        "answer": "19",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Applied"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the value of H.\n\nRound your answer to the nearest whole number.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the value of H.\n\nRound your answer to the nearest whole number.",
+        "question_for_eval": "Find the value of H.\n\nRound your answer to the nearest whole number."
+    },
+    {
+        "sample_index": "3815",
+        "problem_index": "763",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_763.png",
+        "answer": "D",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "In the figure above, the radii of four circles are 1, 2, 3, and 4, respectively. What is the ratio of the area of the small shaded ring to the area of the large shaded ring?\nChoices:\nA.1:2\nB.1:4\nC.3:5\nD.3:7\nE.5:7\n"
+    },
+    {
+        "sample_index": "1325",
+        "problem_index": "265",
+        "problem_version": "Vision Only",
+        "question": "",
+        "image": "images_version_6/image_265.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geometry3K",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "According to the question shown in the image, please directly answer the question and provide the correct option letter, e.g., A, B, C, D.",
+        "query_cot": "According to the question shown in the image, please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.",
+        "question_for_eval": "Line l and m are parallel. Find x.\nChoices:\nA:5.6\nB:18\nC:20\nD:22"
+    },
+    {
+        "sample_index": "2093",
+        "problem_index": "419",
+        "problem_version": "Vision Intensive",
+        "question": "Find the perimeter of the figure shown.",
+        "image": "images_version_1-4/image_419.png",
+        "answer": "Perimeter $=28 \\mathrm{~mm}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the perimeter of the figure shown.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the perimeter of the figure shown.",
+        "question_for_eval": "Find the perimeter of the figure shown."
+    },
+    {
+        "sample_index": "3892",
+        "problem_index": "779",
+        "problem_version": "Text Lite",
+        "question": "In the figure above, if r = 90, s = 50, t = 60, u = 45, and w = 50, what is the value of x?\nChoices:\nA.45\nB.50\nC.65\nD.75\nE.It cannot be determined from the information given",
+        "image": "images_version_1-4/image_779.png",
+        "answer": "C",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GEOS",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: In the figure above, if r = 90, s = 50, t = 60, u = 45, and w = 50, what is the value of x?\nChoices:\nA.45\nB.50\nC.65\nD.75\nE.It cannot be determined from the information given",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the figure above, if r = 90, s = 50, t = 60, u = 45, and w = 50, what is the value of x?\nChoices:\nA.45\nB.50\nC.65\nD.75\nE.It cannot be determined from the information given",
+        "question_for_eval": "In the figure above, if r = 90, s = 50, t = 60, u = 45, and w = 50, what is the value of x?\nChoices:\nA.45\nB.50\nC.65\nD.75\nE.It cannot be determined from the information given"
+    },
+    {
+        "sample_index": "3542",
+        "problem_index": "709",
+        "problem_version": "Text Lite",
+        "question": "Find the surface area of the square pyramid. The perpendicular height is 6 cm.\n\nRound your answer to one decimal place.",
+        "image": "images_version_1-4/image_709.png",
+        "answer": "256.2 \\mathrm{m}^2",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo3D_collected",
+            "subject": "Solid Geometry",
+            "subfield": "Area"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: Find the surface area of the square pyramid. The perpendicular height is 6 cm.\n\nRound your answer to one decimal place.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: Find the surface area of the square pyramid. The perpendicular height is 6 cm.\n\nRound your answer to one decimal place.",
+        "question_for_eval": "Find the surface area of the square pyramid. The perpendicular height is 6 cm.\n\nRound your answer to one decimal place."
+    },
+    {
+        "sample_index": "2238",
+        "problem_index": "448",
+        "problem_version": "Vision Intensive",
+        "question": "The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at $P\\left(\\frac{20}{29},-\\frac{21}{29}\\right)$.\n\nFind the value of $\\tan a$.\n",
+        "image": "images_version_1-4/image_448.png",
+        "answer": "$-\\frac{21}{20}$",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Analytic"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at $P\\left(\\frac{20}{29},-\\frac{21}{29}\\right)$.\n\nFind the value of $\\tan a$.\n",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at $P\\left(\\frac{20}{29},-\\frac{21}{29}\\right)$.\n\nFind the value of $\\tan a$.\n",
+        "question_for_eval": "The graph shows an angle $a$ in standard position with its terminal side intersecting the figure at $P\\left(\\frac{20}{29},-\\frac{21}{29}\\right)$.\n\nFind the value of $\\tan a$.\n"
+    },
+    {
+        "sample_index": "32",
+        "problem_index": "7",
+        "problem_version": "Text Lite",
+        "question": "As shown in the figure, triangle ABC congruent triangle ADE, if angle B = 70.0, angle C = 30.0, angle DAC = 35.0, then the degree of angle EAC is ()\nChoices:\nA:40\u00b0\nB:45\u00b0\nC:35\u00b0\nD:25\u00b0",
+        "image": "images_version_1-4/image_7.png",
+        "answer": "B",
+        "question_type": "multi-choice",
+        "metadata": {
+            "split": "testmini",
+            "source": "GeoQA",
+            "subject": "Plane Geometry",
+            "subfield": "Angle"
+        },
+        "query_wo": "Please directly answer the question and provide the correct option letter, e.g., A, B, C, D.\nQuestion: As shown in the figure, triangle ABC congruent triangle ADE, if angle B = 70.0, angle C = 30.0, angle DAC = 35.0, then the degree of angle EAC is ()\nChoices:\nA:40\u00b0\nB:45\u00b0\nC:35\u00b0\nD:25\u00b0",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, triangle ABC congruent triangle ADE, if angle B = 70.0, angle C = 30.0, angle DAC = 35.0, then the degree of angle EAC is ()\nChoices:\nA:40\u00b0\nB:45\u00b0\nC:35\u00b0\nD:25\u00b0",
+        "question_for_eval": "As shown in the figure, triangle ABC congruent triangle ADE, if angle B = 70.0, angle C = 30.0, angle DAC = 35.0, then the degree of angle EAC is ()\nChoices:\nA:40\u00b0\nB:45\u00b0\nC:35\u00b0\nD:25\u00b0"
+    },
+    {
+        "sample_index": "1851",
+        "problem_index": "371",
+        "problem_version": "Text Dominant",
+        "question": "In the right angled triangle, the marked angle is 60\u00b0, the marked right angled side has a length of 11, and the diagonal side has a length of w. Consider the adjacent figure:\n\nSolve for the unknown w.",
+        "image": "images_version_1-4/image_371.png",
+        "answer": "22",
+        "question_type": "free-form",
+        "metadata": {
+            "split": "testmini",
+            "source": "Geo2D_collected",
+            "subject": "Plane Geometry",
+            "subfield": "Length"
+        },
+        "query_wo": "Please directly answer the question and provide the final value, e.g., 1, 2.5, 300.\nQuestion: In the right angled triangle, the marked angle is 60\u00b0, the marked right angled side has a length of 11, and the diagonal side has a length of w. Consider the adjacent figure:\n\nSolve for the unknown w.",
+        "query_cot": "Please first conduct reasoning, and then answer the question and provide the final value, e.g., 1, 2.5, 300, at the end.\nQuestion: In the right angled triangle, the marked angle is 60\u00b0, the marked right angled side has a length of 11, and the diagonal side has a length of w. Consider the adjacent figure:\n\nSolve for the unknown w.",
+        "question_for_eval": "In the right angled triangle, the marked angle is 60\u00b0, the marked right angled side has a length of 11, and the diagonal side has a length of w. Consider the adjacent figure:\n\nSolve for the unknown w."
+    }
+]
